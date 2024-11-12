@@ -56,4 +56,11 @@ function adicionarHeader() {
 
 }
 
-window.onload = adicionarHeader;
+if (window.onload) {
+    let prevOnload = window.onload;
+    window.onload = function () {
+        prevOnload(); adicionarHeader();
+    };
+} else {
+    window.onload = adicionarHeader;
+}

@@ -28,6 +28,7 @@ function criarFooter() {
     </div>
 </footer>
 
+
     `;
 
     return footer
@@ -41,4 +42,11 @@ function adicionarFooter() {
 
 }
 
-window.onload = adicionarFooter;
+if (window.onload) {
+    let prevOnload = window.onload;
+    window.onload = function () {
+        prevOnload(); adicionarFooter();
+    };
+} else {
+    window.onload = adicionarFooter;
+}
