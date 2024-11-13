@@ -1,34 +1,50 @@
 function criarFooter() {
     const footer = document.createElement('footer');
     footer.innerHTML = `
-    <footer class="bg-customColor-home text-white py-10 text-center">
-    <div class="footer-container max-w-6xl mx-auto px-4 flex flex-wrap justify-around">
-        <div class="footer-section flex-1 mx-4 my-6">
-            <h3 class="text-yellow-400 mb-2 text-lg">Sobre Nós</h3>
-            <p class="mb-2">Somos dedicados a oferecer os melhores cursos online para o seu desenvolvimento pessoal e profissional. Nossa missão é proporcionar educação de qualidade para todos.</p>
-        </div>
-        <div class="footer-section flex-1 mx-4 my-6">
-            <h3 class="text-yellow-400 mb-2 text-lg">Links Rápidos</h3>
-            <ul class="list-none p-0">
-                <li class="mb-2"><a href="#" class="text-white hover:text-yellow-300 transition-colors">Início</a></li>
-                <li class="mb-2"><a href="#" class="text-white hover:text-yellow-300 transition-colors">Cursos</a></li>
-                <li class="mb-2"><a href="#" class="text-white hover:text-yellow-300 transition-colors">Sobre</a></li>
-                <li class="mb-2"><a href="#" class="text-white hover:text-yellow-300 transition-colors">Contato</a></li>
-            </ul>
-        </div>
-        <div class="footer-section flex-1 mx-4 my-6">
-            <h3 class="text-yellow-400 mb-2 text-lg">Contato</h3>
-            <p class="mb-2">Email: contato@cursospremium.com</p>
-            <p class="mb-2">Telefone: (11) 1234-5678</p>
-            <p class="mb-2">Endereço: Rua Exemplo, 123, São Paulo, SP</p>
-        </div>
-    </div>
-    <div class="footer-bottom bg-customColor-home text-white py-2 mt-6">
-        <p>&copy; 2024 Curso Online. Todos os direitos reservados.</p>
-    </div>
-</footer>
+        <div class="md:h-64 h-80 bg-customColor-home">
+            <div class="grid w-full h-full
+            grid-rows-4 grid-cols-2
+            md:grid-rows-2 md:grid-cols-3">
 
+                <div class="w-full
+                md:col-start-1 md:col-end-1
+                row-start-1 col-start-1 col-span-2
+                flex justify-center items-center">
+                    <img src="./img/FocusHub.png" class="md:w-128 w-20" alt="">
+                </div>
 
+                <div class="md:col-start-3 md:col-end-3 md:row-start-1 md:row-end-1
+                row-start-2 col-start-1 col-span-2
+                text-white font-bold
+                flex justify-center items-center">
+                    <span class="text-3xl">Enjoy your Journey!</span>
+                </div>
+
+                <div class="md:row-start-2 md:row-end-2 md:col-start-1 md:col-end-1
+                row-start-3 row-end-3 col-start-1 col-span-2
+                font-bold text-white text-center
+                flex justify-evenly items-center md:flex-col md:justify-end p-2">
+                <a class="p-1" href="">Instagram</a>
+                    <a class="p-1" href="">X</a>
+                    <a class="p-1" href="">LinkedIn</a>
+                </div>
+
+                <div class="md:row-start-2 md:row-end-2 md:col-start-2 md:col-end-2
+                row-start-4 row-end-4 col-start-1 col-span-2
+                w-full text-white p-2
+                flex items-end justify-center">
+                    <p>&copy; FocusHub. Todos os direitos reservados.</p>
+                </div>
+
+                <div class="md:row-start-2 md:col-start-3
+                md:flex md:flex-col md:justify-end md:items-center
+                text-white font-semibold italic p-2
+                hidden">
+                    <p>São Caetano do Sul</p>
+                    <p>SENAI Armando de Arruda Pereira</p>
+                </div>
+            </div>
+        </div>
     `;
 
     return footer

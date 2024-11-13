@@ -8,6 +8,10 @@ module.exports = {
             home: '#5e17eb',
           },
         },
+
+        spacing: {
+          '128': '128px'
+        }
     },
   },
   plugins: [],
