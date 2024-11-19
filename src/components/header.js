@@ -1,18 +1,18 @@
 function criarHeader() {
     const header = document.createElement('header');
     header.innerHTML = `
-        <nav class="md:h-24 bg-customColor-home
+        <nav class="md:h-24 bg-customColor-home fixed top-0 w-full
         grid md:grid-cols-2 md:grid-rows-1 md:gap-80">
 
-            <div class="md:flex md:items-center md:col-start-1 md:col-span-1">
+            <div class="md:flex md:items-center md:col-start-1 md:col-span-1 md:ml-20">
                 <img src="./img/FocusHub.png" class="md:w-24" alt="Logotipo do site FocusHub">
             </div>
 
             <div class="md:flex md:items-center md:justify-end md:col-start-2 md:col-span-1
             text-white md:text-5xl md:m-2">
 
-                <div class="grid md:grid-cols-1 md:grid-rows-3 gap-1 md:m-3 cursor-pointer md:p-4
-                md:bg-violet-800 md:rounded-md" onclick="sidebar()" id="abreMenu">
+                <div class="grid md:grid-cols-1 md:grid-rows-3 gap-1 md:mr-20 cursor-pointer md:p-4
+                md:bg-violet-800 md:rounded-md" id="abreMenu">
                     <div class="bg-white md:w-7 md:h-1 md:row-start-1"></div>
                     <div class="bg-white md:w-7 md:h-1 md:row-start-2"></div>
                     <div class="bg-white md:w-7 md:h-1 md:row-start-3"></div>
@@ -26,7 +26,7 @@ function criarHeader() {
 
         `;
     return header
-    
+
 }
 
 function adicionarHeader() {
@@ -34,6 +34,28 @@ function adicionarHeader() {
     const header = criarHeader();
 
     headerConteiner.append(header);
+
+    const menu = document.getElementById('menu');
+    const abreMenu = document.getElementById('abreMenu');
+
+    menu.style.right = '-384px'
+
+    abreMenu.addEventListener('click', () => {
+        if (menu.style.right === '-384px') {
+            menu.style.transition = '0.5s';
+            menu.style.right = '0';
+
+            abreMenu.style.transition = '0.5s';
+            abreMenu.style.transform = 'translateX(-384px)';
+
+        } else {
+            menu.style.transition = '0.5s';
+            menu.style.right = '-384px';
+
+            abreMenu.style.transition = '0.5s';
+            abreMenu.style.transform = 'translateX(0)'
+        }
+    })
 
 }
 
