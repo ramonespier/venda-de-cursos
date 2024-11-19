@@ -1,7 +1,7 @@
 function criarFooter() {
     const footer = document.createElement('footer');
     footer.innerHTML = `
-        <div class="md:h-64 h-80 bg-customColor-home">
+        <div class="md:h-64 h-80 w-full bg-customColor-home">
             <div class="grid w-full h-full
             grid-rows-4 grid-cols-2
             md:grid-rows-2 md:grid-cols-3">
@@ -23,10 +23,10 @@ function criarFooter() {
                 <div class="md:row-start-2 md:row-end-2 md:col-start-1 md:col-end-1
                 row-start-3 row-end-3 col-start-1 col-span-2
                 font-bold text-white text-center
-                flex justify-evenly items-center md:flex-col md:justify-end p-2">
-                <a class="p-1" href="">Instagram</a>
-                    <a class="p-1" href="">X</a>
-                    <a class="p-1" href="">LinkedIn</a>
+                flex justify-evenly items-center md:justify-evenly w-5 p-2">
+                <a class="w-12" href="#"><img src="./img/instagram.png" alt="Instagram"></a>
+                <a class="w-12" href=""><img src="./img/twitter.png" alt="X"></a>
+                <a class="w-12" href=""><img src="./img/linkedin.png" alt="LinkedIn"></a>
                 </div>
 
                 <div class="md:row-start-2 md:row-end-2 md:col-start-2 md:col-end-2
