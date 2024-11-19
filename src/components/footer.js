@@ -23,7 +23,7 @@ function criarFooter() {
                 <div class="md:row-start-2 md:row-end-2 md:col-start-1 md:col-end-1
                 row-start-3 row-end-3 col-start-1 col-span-2
                 font-bold text-white text-center
-                flex justify-evenly items-center md:justify-evenly w-5 p-2">
+                flex justify-evenly items-center md:justify-evenly w-full p-2">
                 <a class="w-12" href="#"><img src="./img/instagram.png" alt="Instagram"></a>
                 <a class="w-12" href=""><img src="./img/twitter.png" alt="X"></a>
                 <a class="w-12" href=""><img src="./img/linkedin.png" alt="LinkedIn"></a>
