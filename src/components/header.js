@@ -39,12 +39,16 @@ function criarHeader() {
             flex items-center justify-center
             md:row-start-3">
             <?php
-            if ($loginSucesso) {
-            echo $usuario
+                if (isset($_SESSION['cadastro'])) {
+                    if (isset($_SESSION['usuario'])) {
+                    echo $usuario;
 
-            } else {
-            echo "Usuário" 
-            }
+                    } else {
+                    echo "Usuário";
+                    }
+                } else {
+                    echo "guest";
+                };
             ?>
             </span>
 

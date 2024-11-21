@@ -44,7 +44,18 @@ session_start();
                     } else {
                         $_SESSION['cadastro'] = [$novoCadastro];
                     }
+
                     echo "<span>Cadastro realizado com sucesso!</span>";
+
+                    if (isset($_SESSION['usuario'])) {
+                        $_SESSION['usuario'][] = $usuario;
+
+                    } else {
+                        $_SESSION['usuario'] = [$usuario];
+                    }
+
+                    print_r($_SESSION['usuario']);
+                    
                 } else {
                     echo "<span>As senhas não conferem!</span>";
                 }

@@ -1,5 +1,5 @@
 <?php
-session_start()
+session_start();
 ?>
 
 <!DOCTYPE html>
@@ -22,7 +22,7 @@ session_start()
 
     </main>
 
-    <script src="./components/header.js"></script>
+    <script src="./components/header.js"></script> 
     <script src="./components/footer.js"></script>
 </body>
 
