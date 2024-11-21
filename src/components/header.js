@@ -37,7 +37,20 @@ function criarHeader() {
 
             <span class="row-start-5 text-white text-3xl cursor-default
             flex items-center justify-center
-            md:row-start-3">Usuário</span>
+            md:row-start-3">
+            <?php
+            if ($loginSucesso) {
+            echo $usuario
+
+            } else {
+            echo "Usuário" 
+            }
+            ?>
+            </span>
+
+            <a href="./php/login.php" 
+            class="text-white text-3xl row-start-6 ml-5
+            md:row-start-4">Login</a>
 
         </div>
 
