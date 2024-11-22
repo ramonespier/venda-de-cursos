@@ -1,11 +1,22 @@
 function criarHeader() {
     const header = document.createElement('header');
+
+    let usuario = `guest${Math.floor(Math.random() * 1000) + 1}`;
+
+    fetch('http://localhost/24250469/venda-de-cursos/src/php/session_dataa.php')
+    .then(response => response.json())
+    .then(data => {
+        console.log('Username from AJAX: ' +  data.usuario);
+        usuario = data.usuario
+    })
+    .catch(error => console.error('Error:', error))
+
     header.innerHTML = `
-        <nav class="md:h-24 h-24 bg-customColor-home fixed top-0 w-full
+        <nav class="md:h-24 h-24 bg-customColor-home w-full
         grid grid-cols-2 grid-rows-1 md:gap-80 gap-32 md:justify-items-stretch justify-items-center">
 
             <div class="md:flex md:items-center col-start-1 col-span-1 md:ml-20 w-24">
-                <a href="./index.html"><img src="./img/FocusHub.png" class="w-24" alt="Logotipo do site FocusHub"></a>
+                <a href="./index.php"><img src="./img/FocusHub.png" class="w-24" alt="Logotipo do site FocusHub"></a>
             </div>
 
             <div class="flex items-center justify-end md:col-start-2 md:col-span-1
@@ -28,32 +39,14 @@ function criarHeader() {
             flex items-center ml-5
             md:hidden" id="fecharMenu">Fechar</span>
 
-            <div class="row-start-3 row-span-2 w-full
-            flex flex-col justify-center items-center
-            
-            md:row-start-1 md:row-end-2">
-                <div class="bg-gray-600 w-24 h-24 rounded-full"></div>
-            </div>
-
-            <span class="row-start-5 text-white text-3xl cursor-default
+            <span class="row-start-3 text-white text-3xl cursor-default
             flex items-center justify-center
-            md:row-start-3">
-            <?php
-                if (isset($_SESSION['cadastro'])) {
-                    if (isset($_SESSION['usuario'])) {
-                    echo $usuario;
-
-                    } else {
-                    echo "Usuário";
-                    }
-                } else {
-                    echo "guest";
-                };
-            ?>
+            md:row-start-1">
+            ${usuario}
             </span>
 
             <a href="./php/login.php" 
-            class="text-white text-3xl row-start-6 ml-5
+            class="text-white text-3xl row-start-4 ml-5
             md:row-start-4">Login</a>
 
         </div>

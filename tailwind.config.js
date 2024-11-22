@@ -6,6 +6,7 @@ module.exports = {
       colors: {
         customColor: {
           home: '#5e17eb',
+          logoCor: '#ffec40'
         },
       },
 
