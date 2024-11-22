@@ -16,7 +16,7 @@ session_start();
 <body class="w-full bg-slate-100">
 
 
-    <main class="flex flex-col h-screen justify-between">
+    <main class="flex flex-col h-full justify-between">
         <div id="header"></div>
         <img src="./img/slide1.png" class="md:hidden block" alt="">
         <img src="./img/slide1mb.png" class="hidden md:block" alt="">
