@@ -6,7 +6,8 @@ module.exports = {
       colors: {
         customColor: {
           home: '#5e17eb',
-          logoCor: '#ffec40'
+          logoCor: '#ffec40',
+          menuhov: '#200b46'
         },
       },
 
@@ -31,6 +32,12 @@ module.exports = {
         '19': 'repeat(19, minmax(0, 1fr))',
         '20': 'repeat(20, minmax(0, 1fr))'
       },
+
+      gridRowStart: {
+        '14': '14',
+        '15': '15',
+        '16': '16',
+      }
     },
     plugins: [],
   }
