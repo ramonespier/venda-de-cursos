@@ -33,21 +33,37 @@ function criarHeader() {
 
         <div id="menu" class=" grid grid-cols-1 grid-rows-16
         h-full w-screen md:w-96 bg-violet-950
-        fixed top-0 md:-right-384">
+        fixed top-0 md:-right-384 border-l-2 border-l-black">
 
-            <span class="row-start-1 text-white text-3xl cursor-pointer underline
-            flex items-center ml-5
-            md:hidden" id="fecharMenu">Fechar</span>
+            <span class="row-start-1 text-white text-3xl cursor-pointer
+            flex items-center pl-4 transition hover:bg-red-600 hover:border-t hover:border-b
+            md:hidden" id="fecharMenu">✕ Fechar</span>
 
-            <span class="row-start-3 text-white text-3xl cursor-default
+            <span class="row-start-2 text-white text-3xl cursor-default
             flex items-center justify-center
             md:row-start-1">
             ${usuario}
             </span>
 
             <a href="./php/login.php" 
-            class="text-white text-3xl row-start-4 ml-5
-            md:row-start-4">Login</a>
+            class="text-white text-3xl row-start-4
+            md:row-start-3 transition flex items-center 
+            hover:border-t hover:border-b pl-4 hover:bg-customColor-menuhov">Faça seu login</a>
+
+            <a href="#" 
+            class="text-white text-3xl row-start-5
+            md:row-start-4 transition flex items-center 
+            hover:border-t hover:border-b pl-4 hover:bg-customColor-menuhov">Meu Progresso</a>
+
+            <a href="#" 
+            class="text-white text-3xl row-start-15
+            md:row-start-15 transition flex items-center 
+            hover:border-t hover:border-b pl-4 hover:bg-customColor-menuhov">Suporte</a>
+
+            <a href="#" 
+            class="text-white text-3xl row-start-6
+            md:row-start-5 transition flex items-center 
+            hover:border-t hover:border-b pl-4 hover:bg-customColor-menuhov">Avalie nossos cursos</a>
 
         </div>
 

@@ -17,7 +17,7 @@ session_start();
 
 
     <main class="flex flex-col h-full justify-between">
-        <div id="header"></div>
+        <div id="header"></div> 
         <img src="./img/slide1.png" class="md:hidden block" alt="">
         <img src="./img/slide1mb.png" class="hidden md:block" alt="">
 

@@ -67,6 +67,8 @@ session_start();
             Faça login!
         </a>
 
+        <a href="../index.php">Home</a>
+
     </div>
 </body>
 
