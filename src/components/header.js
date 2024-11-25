@@ -16,7 +16,7 @@ function criarHeader() {
         grid grid-cols-2 grid-rows-1 md:gap-80 gap-32 md:justify-items-stretch justify-items-center">
 
             <div class="md:flex md:items-center col-start-1 col-span-1 md:ml-20 w-24">
-                <a href="./index.php"><img src="./img/FocusHub.png" class="w-24" alt="Logotipo do site FocusHub"></a>
+                <a href="../php/index.php"><img src="../img/FocusHub.png" class="w-24" alt="Logotipo do site FocusHub"></a>
             </div>
 
             <div class="flex items-center justify-end md:col-start-2 md:col-span-1

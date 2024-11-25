@@ -9,7 +9,7 @@ function criarFooter() {
                 <div class="w-full
                 md:col-start-1 md:col-end-1 md:flex md:justify-center
                 hidden">
-                    <img src="./img/FocusHub.png" class="md:w-128 w-20" alt="">
+                    <img src="../img/FocusHub.png" class="md:w-128 w-20" alt="">
                 </div>
 
                 <div class="md:col-start-3 md:col-end-3 md:row-start-1 md:row-end-1
@@ -23,9 +23,9 @@ function criarFooter() {
                 row-start-2 col-start-1 col-span-2
                 font-bold text-white text-center
                 flex justify-evenly items-center md:justify-evenly w-full p-2">
-                <a class="md:w-12 w-10" href="#"><img src="./img/instagram.png" alt="Instagram"></a>
-                <a class="md:w-12 w-10" href=""><img src="./img/twitter.png" alt="X"></a>
-                <a class="md:w-12 w-10" href=""><img src="./img/linkedin.png" alt="LinkedIn"></a>
+                <a class="md:w-12 w-10" href="#"><img src="../img/instagram.png" alt="Instagram"></a>
+                <a class="md:w-12 w-10" href=""><img src="../img/twitter.png" alt="X"></a>
+                <a class="md:w-12 w-10" href=""><img src="../img/linkedin.png" alt="LinkedIn"></a>
                 </div>
 
                 <div class="md:row-start-2 md:row-end-2 md:col-start-2 md:col-end-2

@@ -16,13 +16,16 @@ session_start();
 <body class="flex justify-center items-center h-screen bg-slate-100
             bg-gradient-to-r from-customColor-home to-violet-950">
 
-        <div class="w-96 h-96">
-            <form action="login.php" method="POST" class="grid grid-rows-6 grid-cols-2 w-full h-full">
+        <div class="w-96 h-96 border-2 border-slate-500 p-7 rounded-lg 
+        bg-slate-100">
+            <form action="login.php" method="POST" class="grid grid-rows-6 grid-cols-2 w-full h-full gap-6 justify-items-center">
 
-                <h2 class="row-start-1 col-span-2 flex justify-center items-center">Login</h2>
-                <input class="row-start-2 col-span-2 flex justify-center items-center" type="email" name="logEmail" placeholder="E-mail" required >
-                <input class="row-start-3 col-span-2 flex justify-center items-center" type="password" name="logSenha" placeholder="Senha" required >
-                <input class="row-start-4 col-span-2 flex justify-center items-center" type="submit" value="Logar">
+                <h2 class="row-start-1 col-span-2 flex justify-center items-center text-2xl font-bold">Faça seu login</h2>
+                <input class="row-start-2 col-span-2 border-2 border-slate-300 pl-2 w-full rounded-md" type="email" name="logEmail" placeholder="E-mail" required >
+                <input class="row-start-3 col-span-2 border-2 border-slate-300 pl-2 w-full rounded-md" type="password" name="logSenha" placeholder="Senha" required >
+                <input class="row-start-4 col-span-2 flex justify-center items-center
+                            cursor-pointer transition bg-sky-600 hover:bg-sky-800 w-44 border-2 border-slate-300
+                            font-semibold text-md text-white rounded-md" type="submit" value="Logar">
 
                 <?php
                 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
@@ -40,14 +43,14 @@ session_start();
                     }
                     
                     if ($loginSucesso) {
-                        echo "<span class='row-start-5 flex justify-center items-center'>Login realizado com sucesso!</span>";
+                        echo "<span class='row-start-5 col-start-1 col-span-2 text-lime-400 flex justify-center items-center'>Login realizado com sucesso!</span>";
                     } else {
-                        echo "<span class='row-start-4 flex justify-center items-center'>Email ou senha inválidos!</span>";
+                        echo "<span class='row-start-5 col-start-1 col-span-2 text-red-600 flex justify-center items-center'>Email ou senha inválidos!</span>";
                     }
                 }
                 ?>
-                <a href="./cadastro.php" class="col-start-1 row-start-6 flex justify-center items-center">Cadastre-se!</a>
-                <a href="../index.php" class="col-start-2 row-start-6 flex justify-center items-center">Home</a>
+                <a href="./cadastro.php" class="col-start-1 row-start-6 transition hover:text-blue-500 flex items-center font-medium">Cadastre-se!</a>
+                <a href="../index.php" class="col-start-2 row-start-6 transition hover:text-blue-500 flex items-center font-medium">Home</a>
             </form>
 
             </div>
