@@ -35,7 +35,7 @@ session_start();
                 <h2 class="row-start-4 flex justify-center text-center font-bold text-xl">Design Gráfico</h2>
                 <p class="row-start-6 row-span-3 text-justify mr-4 ml-4">Criação visual e design de marcas.</p>
                 <a class="row-start-11 flex justify-center items-center bg-customColor-home
-                p-4 rounded text-white font-bold transition hover:scale-105" href="./cursos.php?index=design">Inscrever-se!</a>
+                p-4 rounded text-white font-bold transition hover:scale-105" href="./cursos.php?index=designgrafico">Inscrever-se!</a>
             </div>
 
             <div class=" md:h-72 h-64 bg-customColor-logoCor rounded-2xl md:col-start-2 md:row-start-1
@@ -57,10 +57,10 @@ session_start();
                 <div class="row-start-1 row-end-4 flex justify-center items-center h-full w-full">
                     <img class="h-16 w-16" src="../img/cursos/bem-estar-fisico.png" alt="#">
                 </div>
-                <h2 class="row-start-4 flex justify-center text-center font-bold text-xl">Bem-Estar</h2>
+                <h2 class="row-start-4 flex justify-center text-center font-bold text-xl">Vida Saudável</h2>
                 <p class="row-start-6 row-span-4 text-justify mr-4 ml-4">Cuide do seu corpo e da sua mente.</p>
                 <a class="row-start-11 flex justify-center items-center bg-customColor-home
-                p-4 rounded text-white font-bold transition hover:scale-105" href="./cursos.php?index=bemestar">Inscrever-se!</a>
+                p-4 rounded text-white font-bold transition hover:scale-105" href="./cursos.php?index=vidasaudavel">Inscrever-se!</a>
             </div>
 
             <div class=" md:h-72 h-64 bg-customColor-logoCor rounded-2xl md:col-start-4 md:row-start-1
@@ -81,10 +81,10 @@ session_start();
                 <div class="row-start-1 row-end-4 flex justify-center items-center h-full w-full">
                     <img class="h-16 w-16" src="../img/cursos/ioga.png" alt="#">
                 </div>
-                <h2 class="row-start-4 flex justify-center text-center font-bold text-xl"> Yoga</h2>
+                <h2 class="row-start-4 flex justify-center text-center font-bold text-xl">Transformação digital e o futuro do trabalho</h2>
                 <p class="row-start-6 row-span-4 text-justify mr-4 ml-4">Equilíbrio entre corpo e mente.</p>
                 <a class="row-start-11 flex justify-center items-center bg-customColor-home
-                p-4 rounded text-white font-bold transition hover:scale-105" href="./cursos.php?index=yoga">Inscrever-se!</a>
+                p-4 rounded text-white font-bold transition hover:scale-105" href="./cursos.php?index=transformacao">Inscrever-se!</a>
             </div>
 
             <div class=" md:h-72 h-64 bg-customColor-logoCor rounded-2xl md:col-start-2 md:row-start-2
@@ -93,10 +93,10 @@ session_start();
                 <div class="row-start-1 row-end-4 flex justify-center items-center h-full w-full">
                     <img class="h-16 w-16" src="../img/cursos/marketing.png" alt="#">
                 </div>
-                <h2 class="row-start-4 flex justify-center text-center font-bold text-xl">Marketing</h2>
+                <h2 class="row-start-4 flex justify-center text-center font-bold text-xl">Mídias Sociais</h2>
                 <p class="row-start-6 row-span-4 text-justify mr-4 ml-4">Aprenda estratégias de marketing digital.</p>
                 <a class="row-start-11 flex justify-center items-center bg-customColor-home
-                p-4 rounded text-white font-bold transition hover:scale-105" href="./cursos.php?index=marketing">Inscrever-se!</a>
+                p-4 rounded text-white font-bold transition hover:scale-105" href="./cursos.php?index=midiassociais">Inscrever-se!</a>
             </div>
 
             <div class=" md:h-72 h-64 bg-customColor-logoCor rounded-2xl md:col-start-3 md:row-start-2
@@ -105,10 +105,10 @@ session_start();
                 <div class="row-start-1 row-end-4 flex justify-center items-center h-full w-full">
                     <img class="h-16 w-16" src="../img/cursos/programacao.png" alt="#">
                 </div>
-                <h2 class="row-start-4 flex justify-center text-center font-bold text-xl">Programação</h2>
+                <h2 class="row-start-4 flex justify-center text-center font-bold text-xl">Programação em Python</h2>
                 <p class="row-start-6 row-span-4 text-justify mr-4 ml-4">Domine linguagens de programação.</p>
                 <a class="row-start-11 flex justify-center items-center bg-customColor-home
-                p-4 rounded text-white font-bold transition hover:scale-105" href="./cursos.php?index=programacao">Inscrever-se!</a>
+                p-4 rounded text-white font-bold transition hover:scale-105" href="./cursos.php?index=python">Inscrever-se!</a>
             </div>
 
             <div class=" md:h-72 h-64 bg-customColor-logoCor rounded-2xl md:col-start-4 md:row-start-2
@@ -168,7 +168,7 @@ session_start();
                 <h2 class="row-start-4 flex justify-center text-center font-bold text-xl">Voz e Dicção</h2>
                 <p class="row-start-6 row-span-4 text-justify mr-4 ml-4">Aprimore a comunicação verbal.</p>
                 <a class="row-start-11 flex justify-center items-center bg-customColor-home
-                p-4 rounded text-white font-bold transition hover:scale-105" href="./cursos.php?index=vozediccao">Inscrever-se!</a>
+                p-4 rounded text-white font-bold transition hover:scale-105" href="./cursos.php?index=musica">Inscrever-se!</a>
             </div>
 
 

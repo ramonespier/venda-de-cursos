@@ -50,7 +50,7 @@ session_start();
                 }
                 ?>
                 <a href="./cadastro.php" class="col-start-1 row-start-6 transition hover:text-blue-500 flex items-center font-medium">Cadastre-se!</a>
-                <a href="../index.php" class="col-start-2 row-start-6 transition hover:text-blue-500 flex items-center font-medium">Home</a>
+                <a href="./index.php" class="col-start-2 row-start-6 transition hover:text-blue-500 flex items-center font-medium">Home</a>
             </form>
 
             </div>

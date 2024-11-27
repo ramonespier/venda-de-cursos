@@ -1,5 +1,10 @@
 <?php
 session_start();
-echo json_encode(['usuario' => $_SESSION['usuario']]);
+
+// if($_SERVER['REQUEST_METHOD'] == 'POST') {
+//     if(isset($_SESSION['$logEmail']) && isset($_SESSION['$logSenha'])) {
+        echo json_encode(['usuario' => $_SESSION['usuario']]);
+// }
+// }
 ?>
 

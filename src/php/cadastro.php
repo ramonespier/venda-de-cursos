@@ -64,7 +64,7 @@ bg-gradient-to-r from-customColor-home to-violet-950">
             }
             ?>
         <a href="./login.php" class="col-start-1 row-start-8 transition hover:text-blue-500 flex items-center font-medium">Faça login!</a>
-        <a href="../index.php" class="col-start-2 row-start-8 transition hover:text-blue-500 flex items-center font-medium">Home</a>
+        <a href="./index.php" class="col-start-2 row-start-8 transition hover:text-blue-500 flex items-center font-medium">Home</a>
         </form>
 
 

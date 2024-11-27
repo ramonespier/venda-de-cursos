@@ -1,7 +1,7 @@
 function criarHeader() {
     const header = document.createElement('header');
 
-    let usuario = `guest${Math.floor(Math.random() * 1000) + 1}`;
+    let usuario //= `guest${Math.floor(Math.random() * 1000) + 1}`;
 
     fetch('http://localhost/24250469/venda-de-cursos/src/php/session_dataa.php')
     .then(response => response.json())
@@ -45,7 +45,7 @@ function criarHeader() {
             ${usuario}
             </span>
 
-            <a href="./php/login.php" 
+            <a href="./login.php" 
             class="text-white text-3xl row-start-4
             md:row-start-3 transition flex items-center 
             hover:border-t hover:border-b pl-4 hover:bg-customColor-menuhov">Faça seu login</a>
