@@ -1,11 +1,5 @@
 <?php
 $cursos = [
-    'designgrafico' => [
-        'nome' => 'Curso de Design Gráfico',
-        'descricao' => 'zkamzkamzkamzkamzkmazkzma zmkazmkazmkamzkamzkmazkmakz zmkazmkamzkamzkmakzmkazmkazm zmkamzkazmkamzkamzkamkzmakzm',
-        'imagem' => 'FocusHub.png'
-    ],
-
     'gastronomia' => [
         'nome' => 'Gastronomia Essencial: Aprenda a Arte de Servir e Preparar Pratos Deliciosos!',
 
@@ -19,72 +13,72 @@ $cursos = [
 
         'imagem' => 'gastronomia.png',
 
-        'video' => 'Gastronomi_FocusHub.mp4'
+
     ],
 
-    'vidasaudavel' => [
-        'nome' => 'Curso de Vida saudável',
-        'descricao' => 'zkamzkamzkamzkamzkmazkzma zmkazmkazmkamzkamzkmazkmakz zmkazmkamzkamzkmakzmkazmkazm zmkamzkazmkamzkamzkamkzmakzm',
-        'imagem' => 'FocusHub.png'
+    'fotografia' => [
+        'nome' => 'Curso de Fotografia',
+        'descricao' => 'Descubra a arte da fotografia e aprenda a capturar emoções e histórias únicas. Neste curso, exploramos o legado de Sebastião Salgado e como seu trabalho inspira fotógrafos a desenvolverem seu estilo pessoal e a contarem suas próprias narrativas visuais. Prepare-se para uma jornada educativa e inspiradora!',
+        'aprendera' => 'Aqui você aprenderá:<br>
+            Equipamento: Os tipos de câmeras e aspectos fundamentais da fotografia.<br>
+            Explorando o ambiente: a influência da luz e os cenários de paisagem e arquiteturas.<br>
+            Capturando Momentos e emoções, a essência da fotografia.<br>
+            Estilo e criatividade, como identificar e aperfeiçoar sua técnica de acordo com seu perfil',
+        'imagem' => 'fotografia.jpg',
+
+
     ],
 
-    'escritacriativa' => [
-        'nome' => 'Curso de Escrita Criativa',
-        'descricao' => 'zkamzkamzkamzkamzkmazkzma zmkazmkazmkamzkamzkmazkmakz zmkazmkamzkamzkmakzmkazmkazm zmkamzkazmkamzkamzkamkzmakzm',
-        'imagem' => 'FocusHub.png'
+    'musica' => [
+        'nome' => 'Curso de Música',
+
+        'descricao' => 'Descubra o fascinante mundo da música com nosso curso completo no FocusHub!',
+
+        'aprendera' =>  'Aprenda sobre teoria musical, explore estilos variados e produza suas próprias composições utilizando as mais modernas tecnologias. Este vídeo é uma jornada inspiradora para aspirantes a músicos e entusiastas da música.',
+
+        'imagem' => 'musica.PNG',
+
+    ],
+
+    'dev' => [
+        'nome' => 'Desenvolva suas habilidades em Desenvolvimento Web!',
+
+        'descricao' => 'Neste curso, você aprenderá a criar páginas estáticas com HTML e CSS, adicionar interatividade com JavaScript, e aprimorar a funcionalidade do seu site utilizando frameworks como React, Node.js e TailwindCSS. Além disso, abordaremos práticas essenciais de segurança, como prevenção contra XSS, CSRF e SQL Injection, para garantir a proteção das suas aplicações.',
+
+        'aprendera' =>  'Você aprenderá:
+                        Iniciando o desenvolvimento de páginas Web a partir do HTML e CSS.
+                        Criando interatividade com JavaScript.
+                        Aprimorando as funções do site utilizando frameworks: react, node.js, tailwindcss.
+                        Gerenciando a segurança: introdução a XSS, CSRF, SQL Injection.',
+
+        'imagem' => 'desenvolvimento.PNG',
     ],
 
     'transformacao' => [
-        'nome' => 'Curso de Transformação digital e o futuro do trabalho',
-        'descricao' => 'zkamzkamzkamzkamzkmazkzma zmkazmkazmkamzkamzkmazkmakz zmkazmkamzkamzkmakzmkazmkazm zmkamzkazmkamzkamzkamkzmakzm',
-        'imagem' => 'FocusHub.png'
-    ],
+        'nome' => 'Transforme sua vida financeira agora!',
+        'descricao' => 'Aprenda a controlar seu orçamento, investir de forma inteligente e planejar seu futuro com segurança. Este curso vai te ensinar tudo sobre finanças pessoais, desde o básico até estratégias para garantir uma aposentadoria tranquila e um legado duradouro. Venha conquistar sua liberdade financeira com nosso curso da FocusHub!',
+        'aprendera' =>  'Você aprenderá:
+                        Começando bem e certo: planejamento de orçamento mensal, controle de gastos e dívidas e metas financeiras.
+                        Iniciando a gestão de recursos provisionados: tipos de investimentos, riscos e retornos e diversificação de portfólio.
+                        O planejamento de longo prazo: a inflação e valor do dinheiro no tempo, planejamento de aposentadoria (estratégias e cálculos), previdência privada.
+                        Legado financeiro: o planejamento para transferência para sucessão da herança familiar',
 
-    'midiassociais' => [
-        'nome' => 'Curso de Mídias Sociais',
-        'descricao' => 'zkamzkamzkamzkamzkmazkzma zmkazmkazmkamzkamzkmazkmakz zmkazmkamzkamzkmakzmkazmkazm zmkamzkazmkamzkamzkamkzmakzm',
-        'imagem' => 'FocusHub.png'
+        'imagem' => 'financas.webp',
     ],
 
     'python' => [
         'nome' => 'Curso de Programação em Python',
         'descricao' => 'zkamzkamzkamzkamzkmazkzma zmkazmkazmkamzkamzkmazkmakz zmkazmkamzkamzkmakzmkazmkazm zmkamzkazmkamzkamzkamkzmakzm',
-        'imagem' => 'FocusHub.png'
+        'imagem' => 'FocusHub.png',
+
+        'link' => 'avalie-python'
     ],
 
-    'tecnologia' => [
-        'nome' => 'Curso de Tecnologia',
-        'descricao' => 'zkamzkamzkamzkamzkmazkzma zmkazmkazmkamzkamzkmazkmakz zmkazmkamzkamzkmakzmkazmkazm zmkamzkazmkamzkamzkamkzmakzm',
-        'imagem' => 'FocusHub.png'
-    ],
-
-    'vendas' => [
-        'nome' => 'Curso de Vendas',
-        'descricao' => 'zkamzkamzkamzkamzkmazkzma zmkazmkazmkamzkamzkmazkmakz zmkazmkamzkamzkmakzmkazmkazm zmkamzkazmkamzkamzkamkzmakzm',
-        'imagem' => 'FocusHub.png'
-    ],
-
-    'fotografia' => [
-        'nome' => 'Curso de Fotografia',
-        'descricao' => 'zkamzkamzkamzkamzkmazkzma zmkazmkazmkamzkamzkmazkmakz zmkazmkamzkamzkmakzmkazmkazm zmkamzkazmkamzkamzkamkzmakzm',
-        'imagem' => 'FocusHub.png'
-    ],
-
-    'fitness' => [
-        'nome' => 'Curso de Fitness',
-        'descricao' => 'zkamzkamzkamzkamzkmazkzma zmkazmkazmkamzkamzkmazkmakz zmkazmkamzkamzkmakzmkazmkazm zmkamzkazmkamzkamzkamkzmakzm',
-        'imagem' => 'FocusHub.png'
-    ],
-
-    'música' => [
-        'nome' => 'Curso de Design Gráfico',
-        'descricao' => 'zkamzkamzkamzkamzkmazkzma zmkazmkazmkamzkamzkmazkmakz zmkazmkamzkamzkmakzmkazmkazm zmkamzkazmkamzkamzkamkzmakzm',
-        'imagem' => 'FocusHub.png'
-    ],
 ];
 
 $questionario = [
     'Design Gráfico' => [
+        'video' => '',
         '1' => 'Qual é o seu nível de conhecimento sobre Design Gráfico?',
         '2' => 'Qual é o seu nível de conhecimento sobre Design Gráfico?',
         '3' => 'Qual é o seu nível de conhecimento sobre Design Gráfico?',
@@ -98,6 +92,7 @@ $questionario = [
     ],
 
     'Gastronomia' => [
+        'video' => '',
         '1' => 'Qual é o seu nível de conhecimento sobre Gastronomia?',
         '2' => 'Qual é o seu nível de conhecimento sobre Gastronomia?',
         '3' => 'Qual é o seu nível de conhecimento sobre Gastronomia?',
@@ -111,6 +106,7 @@ $questionario = [
     ],
     
     'Vida saudável' => [
+        'video' => '',
         '1' => 'Qual é o seu nível de conhecimento sobre Vida saudável?',
         '2' => 'Qual é o seu nível de conhecimento sobre Vida saudável?',
         '3' => 'Qual é o seu nível de conhecimento sobre Vida saudável?',
@@ -124,6 +120,7 @@ $questionario = [
     ],
 
     'Escrita Criativa' => [
+        'video' => '',
         '1' => 'Qual é o seu nível de conhecimento sobre Escrita Criativa?',
         '2' => 'Qual é o seu nível de conhecimento sobre Escrita Criativa?',
         '3' => 'Qual é o seu nível de conhecimento sobre Escrita Criativa?',
@@ -137,6 +134,7 @@ $questionario = [
     ],
 
     'Transformação digital e o futuro do trabalho' => [
+        'video' => '',
         '1' => 'Qual é o seu nível de conhecimento sobre Transformação digital e o futuro do trabalho?',
         '2' => 'Qual é o seu nível de conhecimento sobre Transformação digital e o futuro do trabalho?',
         '3' => 'Qual é o seu nível de conhecimento sobre Transformação digital e o futuro do trabalho?',
@@ -150,6 +148,7 @@ $questionario = [
     ],
 
     'Mídias Sociais' => [
+        'video' => '',
         '1' => 'Qual é o seu nível de conhecimento sobre Mídias Sociais?',
         '2' => 'Qual é o seu nível de conhecimento sobre Mídias Sociais?',
         '3' => 'Qual é o seu nível de conhecimento sobre Mídias Sociais?',
@@ -163,6 +162,7 @@ $questionario = [
     ],
 
     'Programação em Python' => [
+        'video' => '',
         '1' => 'Qual é o seu nível de conhecimento sobre Programação em Python?',
         '2' => 'Qual é o seu nível de conhecimento sobre Programação em Python?',
         '3' => 'Qual é o seu nível de conhecimento sobre Programação em Python?',
@@ -176,6 +176,7 @@ $questionario = [
     ],
 
     'Tecnologia' => [
+        'video' => '',
         '1' => 'Qual é o seu nível de conhecimento sobre Tecnologia?',
         '2' => 'Qual é o seu nível de conhecimento sobre Tecnologia?',
         '3' => 'Qual é o seu nível de conhecimento sobre Tecnologia?',
@@ -189,6 +190,7 @@ $questionario = [
     ],
 
     'Vendas' => [
+        'video' => '',
         '1' => 'Qual é o seu nível de conhecimento sobre Vendas?',
         '2' => 'Qual é o seu nível de conhecimento sobre Vendas?',
         '3' => 'Qual é o seu nível de conhecimento sobre Vendas?',
@@ -202,6 +204,7 @@ $questionario = [
     ],
 
     'Fotografia' => [
+        'video' => '',
         '1' => 'Qual é o seu nível de conhecimento sobre Fotografia?',
         '2' => 'Qual é o seu nível de conhecimento sobre Fotografia?',
         '3' => 'Qual é o seu nível de conhecimento sobre Fotografia?',
@@ -215,6 +218,7 @@ $questionario = [
     ],
 
     'Fitness' => [
+        'video' => '',
         '1' => 'Qual é o seu nível de conhecimento sobre Fitness?',
         '2' => 'Qual é o seu nível de conhecimento sobre Fitness?',
         '3' => 'Qual é o seu nível de conhecimento sobre Fitness?',
@@ -228,6 +232,7 @@ $questionario = [
     ],
 
     'Música' => [
+        'video' => '',
         '1' => 'Qual é o seu nível de conhecimento sobre Música?',
         '2' => 'Qual é o seu nível de conhecimento sobre Música?',
         '3' => 'Qual é o seu nível de conhecimento sobre Música?',

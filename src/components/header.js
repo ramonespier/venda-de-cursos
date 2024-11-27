@@ -50,20 +50,15 @@ function criarHeader() {
             md:row-start-3 transition flex items-center 
             hover:border-t hover:border-b pl-4 hover:bg-customColor-menuhov">Faça seu login</a>
 
-            <a href="#" 
+            <a href="./patch.php" 
             class="text-white text-3xl row-start-5
             md:row-start-4 transition flex items-center 
-            hover:border-t hover:border-b pl-4 hover:bg-customColor-menuhov">Meu Progresso</a>
+            hover:border-t hover:border-b pl-4 hover:bg-customColor-menuhov">Notas de atualização</a>
 
             <a href="#" 
             class="text-white text-3xl row-start-15
             md:row-start-15 transition flex items-center 
             hover:border-t hover:border-b pl-4 hover:bg-customColor-menuhov">Suporte</a>
-
-            <a href="#" 
-            class="text-white text-3xl row-start-6
-            md:row-start-5 transition flex items-center 
-            hover:border-t hover:border-b pl-4 hover:bg-customColor-menuhov">Avalie nossos cursos</a>
 
         </div>
 
