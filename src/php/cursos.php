@@ -42,7 +42,7 @@ $index = $_GET['index'];
             <?php
                 foreach($cursos as $key => $curso) {
                     if ($key == $index) {
-                        echo '<a href="./aula.php?index='.$key.'" class="row-start-4 bg-green-600 text-white
+                        echo '<a href="./aula.php?index='.$key.'" class="row-start-4 bg-green-600 hover:bg-green-700 transition text-white
             font-bold flex justify-center items-center self-center rounded-xl text-2xl p-2 pr-4 pl-4">Assista a aula!</a>';
                 }
             }
@@ -51,7 +51,7 @@ $index = $_GET['index'];
             <?php
                 foreach($cursos as $key => $curso) {
                     if ($key == $index) {
-                        echo '<a href="./avaliacao.php?index='.$key.'" class="row-start-5 bg-blue-500 text-white
+                        echo '<a href="./avaliacao.php?index='.$key.'" class="row-start-5 bg-blue-500 hover:bg-blue-600 transition text-white
                         font-bold flex justify-center items-center self-center rounded-xl text-2xl pl-10 pr-10 p-2">Avalie o curso!</a>';
                 }
             }
