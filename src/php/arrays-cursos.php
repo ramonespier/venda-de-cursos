@@ -188,6 +188,19 @@ $questionario = [
         'questao8' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
         'questao9' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
         'questao10' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+    ],
+
+    'dev' => [
+        'questao1' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+        'questao2' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+        'questao3' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+        'questao4' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+        'questao5' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+        'questao6' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+        'questao7' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+        'questao8' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+        'questao9' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+        'questao10' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
     ]
 
 ];
