@@ -1,7 +1,7 @@
 <?php
 $cursos = [
     'gastronomia' => [
-        'nome' => 'Gastronomia Essencial: Aprenda a Arte de Servir e Preparar Pratos Deliciosos!',
+        'nome' => 'Gastronomia Essencial',
 
         'descricao' => 'Descubra os fundamentos da gastronomia com nosso vídeo educativo! Aprenda sobre boas práticas de higiene, técnicas de preparo e a arte de servir. Explore também a confeitaria e como harmonizar pratos com vinhos para criar experiências inesquecíveis na cozinha!',
 
@@ -41,7 +41,7 @@ $cursos = [
     ],
 
     'dev' => [
-        'nome' => 'Desenvolva suas habilidades em Desenvolvimento Web!',
+        'nome' => 'Desenvolvimento Web',
 
         'descricao' => 'Neste curso, você aprenderá a criar páginas estáticas com HTML e CSS, adicionar interatividade com JavaScript, e aprimorar a funcionalidade do seu site utilizando frameworks como React, Node.js e TailwindCSS. Além disso, abordaremos práticas essenciais de segurança, como prevenção contra XSS, CSRF e SQL Injection, para garantir a proteção das suas aplicações.',
 

@@ -5,9 +5,10 @@ module.exports = {
     extend: {
       colors: {
         customColor: {
-          home: '#5e17eb',
+          home: '#110d29',
           logoCor: '#ffec40',
-          menuhov: '#200b46'
+          menuhov: '#200b46',
+          faixa: '#2e1065'
         },
       },
 
