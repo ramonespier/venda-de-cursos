@@ -13,6 +13,8 @@ $cursos = [
 
         'imagem' => 'gastronomia.png',
 
+        'video' => '<iframe title="vimeo-player" class="w-full h-full" src="https://player.vimeo.com/video/1034483566?h=4ee7c2f43b" frameborder="0" allowfullscreen></iframe>'
+
 
     ],
 
@@ -25,6 +27,7 @@ $cursos = [
             Capturando Momentos e emoções, a essência da fotografia.<br>
             Estilo e criatividade, como identificar e aperfeiçoar sua técnica de acordo com seu perfil',
         'imagem' => 'fotografia.jpg',
+        'video' => '<iframe title="vimeo-player" class="w-full h-full" src="https://player.vimeo.com/video/1034491856?h=f8c86120f5" frameborder="0" allowfullscreen></iframe>'
 
 
     ],
@@ -37,6 +40,8 @@ $cursos = [
         'aprendera' =>  'Aprenda sobre teoria musical, explore estilos variados e produza suas próprias composições utilizando as mais modernas tecnologias. Este vídeo é uma jornada inspiradora para aspirantes a músicos e entusiastas da música.',
 
         'imagem' => 'musica.PNG',
+
+        'video' => '<iframe title="vimeo-player" class="w-full h-full" src="https://player.vimeo.com/video/1034493648?h=e67ac64779" frameborder="0"  allowfullscreen></iframe>'
 
     ],
 
@@ -52,6 +57,8 @@ $cursos = [
                         Gerenciando a segurança: introdução a XSS, CSRF, SQL Injection.',
 
         'imagem' => 'desenvolvimento.PNG',
+
+        'video' => '<iframe title="vimeo-player" class="w-full h-full" src="https://player.vimeo.com/video/1034494702?h=32427d7e75" frameborder="0" allowfullscreen></iframe>'
     ],
 
     'transformacao' => [
@@ -64,186 +71,123 @@ $cursos = [
                         Legado financeiro: o planejamento para transferência para sucessão da herança familiar',
 
         'imagem' => 'financas.webp',
+
+        'video' => '<iframe title="vimeo-player"  class="w-full h-full" src="https://player.vimeo.com/video/1034495529?h=5fbc3b1a14" frameborder="0" allowfullscreen></iframe>'
     ],
 
     'python' => [
-        'nome' => 'Curso de Programação em Python',
-        'descricao' => 'zkamzkamzkamzkamzkmazkzma zmkazmkazmkamzkamzkmazkmakz zmkazmkamzkamzkmakzmkazmkazm zmkamzkazmkamzkamzkamkzmakzm',
-        'imagem' => 'FocusHub.png',
+        'nome' => 'Aprenda Python!',
+        'descricao' => 'A linguagem mais popular e flexível do mercado, essencial para quem deseja se destacar em áreas como desenvolvimento de software, automação, análise de dados e inteligência artificial. No FocusHub, além de conhecer as tecnologias do futuro, você receberá dicas valiosas para criar um portfólio impressionante e se destacar no mercado. ',
 
-        'link' => 'avalie-python'
+        'aprendera' =>  'Aprendendo a linguagem Python. 
+        Fundamentos: variáveis, estrutura de controle, funções e estrutura de Dados. 
+        Estrutura de dados: listas, tuplas, dicionários, conjuntos 
+        Desenvolvendo a linguagem: orientação a objetos, manipulação de arquivos, bibliotecas padrão, bibliotecas populares. 
+        Criando um portfólio.',
+
+        'imagem' => 'python2.avif',
+
+        'video' => '<iframe title="vimeo-player" class="h-full w-full" src="https://player.vimeo.com/video/1034508470?h=9e7e458993" frameborder="0" allowfullscreen></iframe>'
+    ],
+
+    'designgrafico' => [
+        'nome' => 'Design Gráfico',
+        'descricao' => 'As imagens têm o poder de influenciar percepções, escolhas e até comportamentos, especialmente nas redes sociais. Se você deseja entender como criar conteúdos visuais impactantes que se conectem com as pessoas, o curso de design visual da FocusHub é a oportunidade ideal para você. Prepare-se para transformar suas ideias em projetos poderosos e aprender as ferramentas e estratégias para se destacar no ambiente digital atual!',
+
+        'aprendera' =>  'Você aprenderá: 
+                Fundamentos: Introdução, princípios básicos, teoria e psicologia das cores. Além de tipografia.
+                Ferramentas: Canva e Adobe em suas diferentes versões: Photoshop, Illustrator, InDesign.
+                Design para Web: Design responsivo e layout par sites, UX, UI e design de banners.
+                Identidade visual e Branding: logotipos, marcas e elementos gráficos.
+                Mídias Sociais: Conteúdo para Instagram, Facebook e outras plataformas
+                Projeto e portfólio: como construir um portfólio e um projeto impressionante!',
+
+        'imagem' => 'design.jpg',
+
+        'video' => '<iframe title="vimeo-player" class="h-full w-full" src="https://player.vimeo.com/video/1034509265?h=1d8479d78e" frameborder="0" allowfullscreen></iframe>'
     ],
 
 ];
 
 $questionario = [
-    'Design Gráfico' => [
-        'video' => '',
-        '1' => 'Qual é o seu nível de conhecimento sobre Design Gráfico?',
-        '2' => 'Qual é o seu nível de conhecimento sobre Design Gráfico?',
-        '3' => 'Qual é o seu nível de conhecimento sobre Design Gráfico?',
-        '4' => 'Qual é o seu nível de conhecimento sobre Design Gráfico?',
-        '5' => 'Qual é o seu nível de conhecimento sobre Design Gráfico?',
-        '6' => 'Qual é o seu nível de conhecimento sobre Design Gráfico?',
-        '7' => 'Qual é o seu nível de conhecimento sobre Design Gráfico?',
-        '8' => 'Qual é o seu nível de conhecimento sobre Design Gráfico?',
-        '9' => 'Qual é o seu nível de conhecimento sobre Design Gráfico?',
-        '10' => 'Qual é o seu nível de conhecimento sobre Design Gráfico?',
+
+    'gastronomia' => [
+        'questao1' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+        'questao2' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+        'questao3' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+        'questao4' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+        'questao5' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+        'questao6' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+        'questao7' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+        'questao8' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+        'questao9' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+        'questao10' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
     ],
 
-    'Gastronomia' => [
-        'video' => '',
-        '1' => 'Qual é o seu nível de conhecimento sobre Gastronomia?',
-        '2' => 'Qual é o seu nível de conhecimento sobre Gastronomia?',
-        '3' => 'Qual é o seu nível de conhecimento sobre Gastronomia?',
-        '4' => 'Qual é o seu nível de conhecimento sobre Gastronomia?',
-        '5' => 'Qual é o seu nível de conhecimento sobre Gastronomia?',
-        '6' => 'Qual é o seu nível de conhecimento sobre Gastronomia?',
-        '7' => 'Qual é o seu nível de conhecimento sobre Gastronomia?',
-        '8' => 'Qual é o seu nível de conhecimento sobre Gastronomia?',
-        '9' => 'Qual é o seu nível de conhecimento sobre Gastronomia?',
-        '10' => 'Qual é o seu nível de conhecimento sobre Gastronomia?',
-    ],
-    
-    'Vida saudável' => [
-        'video' => '',
-        '1' => 'Qual é o seu nível de conhecimento sobre Vida saudável?',
-        '2' => 'Qual é o seu nível de conhecimento sobre Vida saudável?',
-        '3' => 'Qual é o seu nível de conhecimento sobre Vida saudável?',
-        '4' => 'Qual é o seu nível de conhecimento sobre Vida saudável?',
-        '5' => 'Qual é o seu nível de conhecimento sobre Vida saudável?',
-        '6' => 'Qual é o seu nível de conhecimento sobre Vida saudável?',
-        '7' => 'Qual é o seu nível de conhecimento sobre Vida saudável?',
-        '8' => 'Qual é o seu nível de conhecimento sobre Vida saudável?',
-        '9' => 'Qual é o seu nível de conhecimento sobre Vida saudável?',
-        '10' => 'Qual é o seu nível de conhecimento sobre Vida saudável?',
+    'transformacao' => [
+        'questao1' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+        'questao2' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+        'questao3' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+        'questao4' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+        'questao5' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+        'questao6' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+        'questao7' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+        'questao8' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+        'questao9' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+        'questao10' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
     ],
 
-    'Escrita Criativa' => [
-        'video' => '',
-        '1' => 'Qual é o seu nível de conhecimento sobre Escrita Criativa?',
-        '2' => 'Qual é o seu nível de conhecimento sobre Escrita Criativa?',
-        '3' => 'Qual é o seu nível de conhecimento sobre Escrita Criativa?',
-        '4' => 'Qual é o seu nível de conhecimento sobre Escrita Criativa?',
-        '5' => 'Qual é o seu nível de conhecimento sobre Escrita Criativa?',
-        '6' => 'Qual é o seu nível de conhecimento sobre Escrita Criativa?',
-        '7' => 'Qual é o seu nível de conhecimento sobre Escrita Criativa?',
-        '8' => 'Qual é o seu nível de conhecimento sobre Escrita Criativa?',
-        '9' => 'Qual é o seu nível de conhecimento sobre Escrita Criativa?',
-        '10' => 'Qual é o seu nível de conhecimento sobre Escrita Criativa?',
+    'python' => [
+        'questao1' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+        'questao2' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+        'questao3' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+        'questao4' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+        'questao5' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+        'questao6' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+        'questao7' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+        'questao8' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+        'questao9' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+        'questao10' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
     ],
 
-    'Transformação digital e o futuro do trabalho' => [
-        'video' => '',
-        '1' => 'Qual é o seu nível de conhecimento sobre Transformação digital e o futuro do trabalho?',
-        '2' => 'Qual é o seu nível de conhecimento sobre Transformação digital e o futuro do trabalho?',
-        '3' => 'Qual é o seu nível de conhecimento sobre Transformação digital e o futuro do trabalho?',
-        '4' => 'Qual é o seu nível de conhecimento sobre Transformação digital e o futuro do trabalho?',
-        '5' => 'Qual é o seu nível de conhecimento sobre Transformação digital e o futuro do trabalho?',
-        '6' => 'Qual é o seu nível de conhecimento sobre Transformação digital e o futuro do trabalho?',
-        '7' => 'Qual é o seu nível de conhecimento sobre Transformação digital e o futuro do trabalho?',
-        '8' => 'Qual é o seu nível de conhecimento sobre Transformação digital e o futuro do trabalho?',
-        '9' => 'Qual é o seu nível de conhecimento sobre Transformação digital e o futuro do trabalho?',
-        '10' => 'Qual é o seu nível de conhecimento sobre Transformação digital e o futuro do trabalho?',
+    'fotografia' => [
+        
+        'questao1' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+        'questao2' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+        'questao3' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+        'questao4' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+        'questao5' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+        'questao6' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+        'questao7' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+        'questao8' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+        'questao9' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+        'questao10' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
     ],
 
-    'Mídias Sociais' => [
-        'video' => '',
-        '1' => 'Qual é o seu nível de conhecimento sobre Mídias Sociais?',
-        '2' => 'Qual é o seu nível de conhecimento sobre Mídias Sociais?',
-        '3' => 'Qual é o seu nível de conhecimento sobre Mídias Sociais?',
-        '4' => 'Qual é o seu nível de conhecimento sobre Mídias Sociais?',
-        '5' => 'Qual é o seu nível de conhecimento sobre Mídias Sociais?',
-        '6' => 'Qual é o seu nível de conhecimento sobre Mídias Sociais?',
-        '7' => 'Qual é o seu nível de conhecimento sobre Mídias Sociais?',
-        '8' => 'Qual é o seu nível de conhecimento sobre Mídias Sociais?',
-        '9' => 'Qual é o seu nível de conhecimento sobre Mídias Sociais?',
-        '10' => 'Qual é o seu nível de conhecimento sobre Mídias Sociais?',
+    'musica' => [
+        'questao1' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+        'questao2' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+        'questao3' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+        'questao4' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+        'questao5' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+        'questao6' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+        'questao7' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+        'questao8' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+        'questao9' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+        'questao10' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
     ],
 
-    'Programação em Python' => [
-        'video' => '',
-        '1' => 'Qual é o seu nível de conhecimento sobre Programação em Python?',
-        '2' => 'Qual é o seu nível de conhecimento sobre Programação em Python?',
-        '3' => 'Qual é o seu nível de conhecimento sobre Programação em Python?',
-        '4' => 'Qual é o seu nível de conhecimento sobre Programação em Python?',
-        '5' => 'Qual é o seu nível de conhecimento sobre Programação em Python?',
-        '6' => 'Qual é o seu nível de conhecimento sobre Programação em Python?',
-        '7' => 'Qual é o seu nível de conhecimento sobre Programação em Python?',
-        '8' => 'Qual é o seu nível de conhecimento sobre Programação em Python?',
-        '9' => 'Qual é o seu nível de conhecimento sobre Programação em Python?',
-        '10' => 'Qual é o seu nível de conhecimento sobre Programação em Python?',
-    ],
-
-    'Tecnologia' => [
-        'video' => '',
-        '1' => 'Qual é o seu nível de conhecimento sobre Tecnologia?',
-        '2' => 'Qual é o seu nível de conhecimento sobre Tecnologia?',
-        '3' => 'Qual é o seu nível de conhecimento sobre Tecnologia?',
-        '4' => 'Qual é o seu nível de conhecimento sobre Tecnologia?',
-        '5' => 'Qual é o seu nível de conhecimento sobre Tecnologia?',
-        '6' => 'Qual é o seu nível de conhecimento sobre Tecnologia?',
-        '7' => 'Qual é o seu nível de conhecimento sobre Tecnologia?',
-        '8' => 'Qual é o seu nível de conhecimento sobre Tecnologia?',
-        '9' => 'Qual é o seu nível de conhecimento sobre Tecnologia?',
-        '10' => 'Qual é o seu nível de conhecimento sobre Tecnologia?',
-    ],
-
-    'Vendas' => [
-        'video' => '',
-        '1' => 'Qual é o seu nível de conhecimento sobre Vendas?',
-        '2' => 'Qual é o seu nível de conhecimento sobre Vendas?',
-        '3' => 'Qual é o seu nível de conhecimento sobre Vendas?',
-        '4' => 'Qual é o seu nível de conhecimento sobre Vendas?',
-        '5' => 'Qual é o seu nível de conhecimento sobre Vendas?',
-        '6' => 'Qual é o seu nível de conhecimento sobre Vendas?',
-        '7' => 'Qual é o seu nível de conhecimento sobre Vendas?',
-        '8' => 'Qual é o seu nível de conhecimento sobre Vendas?',
-        '9' => 'Qual é o seu nível de conhecimento sobre Vendas?',
-        '10' => 'Qual é o seu nível de conhecimento sobre Vendas?',
-    ],
-
-    'Fotografia' => [
-        'video' => '',
-        '1' => 'Qual é o seu nível de conhecimento sobre Fotografia?',
-        '2' => 'Qual é o seu nível de conhecimento sobre Fotografia?',
-        '3' => 'Qual é o seu nível de conhecimento sobre Fotografia?',
-        '4' => 'Qual é o seu nível de conhecimento sobre Fotografia?',
-        '5' => 'Qual é o seu nível de conhecimento sobre Fotografia?',
-        '6' => 'Qual é o seu nível de conhecimento sobre Fotografia?',
-        '7' => 'Qual é o seu nível de conhecimento sobre Fotografia?',
-        '8' => 'Qual é o seu nível de conhecimento sobre Fotografia?',
-        '9' => 'Qual é o seu nível de conhecimento sobre Fotografia?',
-        '10' => 'Qual é o seu nível de conhecimento sobre Fotografia?',
-    ],
-
-    'Fitness' => [
-        'video' => '',
-        '1' => 'Qual é o seu nível de conhecimento sobre Fitness?',
-        '2' => 'Qual é o seu nível de conhecimento sobre Fitness?',
-        '3' => 'Qual é o seu nível de conhecimento sobre Fitness?',
-        '4' => 'Qual é o seu nível de conhecimento sobre Fitness?',
-        '5' => 'Qual é o seu nível de conhecimento sobre Fitness?',
-        '6' => 'Qual é o seu nível de conhecimento sobre Fitness?',
-        '7' => 'Qual é o seu nível de conhecimento sobre Fitness?',
-        '8' => 'Qual é o seu nível de conhecimento sobre Fitness?',
-        '9' => 'Qual é o seu nível de conhecimento sobre Fitness?',
-        '10' => 'Qual é o seu nível de conhecimento sobre Fitness?',
-    ],
-
-    'Música' => [
-        'video' => '',
-        '1' => 'Qual é o seu nível de conhecimento sobre Música?',
-        '2' => 'Qual é o seu nível de conhecimento sobre Música?',
-        '3' => 'Qual é o seu nível de conhecimento sobre Música?',
-        '4' => 'Qual é o seu nível de conhecimento sobre Música?',
-        '5' => 'Qual é o seu nível de conhecimento sobre Música?',
-        '6' => 'Qual é o seu nível de conhecimento sobre Música?',
-        '7' => 'Qual é o seu nível de conhecimento sobre Música?',
-        '8' => 'Qual é o seu nível de conhecimento sobre Música?',
-        '9' => 'Qual é o seu nível de conhecimento sobre Música?',
-        '10' => 'Qual é o seu nível de conhecimento sobre Música?',
-    ],
+    'designgrafico' => [
+        'questao1' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+        'questao2' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+        'questao3' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+        'questao4' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+        'questao5' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+        'questao6' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+        'questao7' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+        'questao8' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+        'questao9' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+        'questao10' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+    ]
 
 ];
-
