@@ -58,10 +58,10 @@ session_start();
                 <div class="row-start-1 row-end-4 flex justify-center items-center h-full w-full">
                     <img class="h-16 w-16" src="../img/cursos/bem-estar-fisico.png" alt="#">
                 </div>
-                <h2 class="row-start-4 flex justify-center text-center font-bold text-xl"></h2>
-                <p class="row-start-6 row-span-4 text-justify mr-4 ml-4">.</p>
+                <h2 class="row-start-4 flex justify-center text-center font-bold text-xl">Design Gráfico</h2>
+                <p class="row-start-6 row-span-4 text-justify mr-4 ml-4">Crie conteúdos visuais impactantes!</p>
                 <a class="row-start-11 flex justify-center items-center bg-customColor-home
-                p-4 rounded text-white font-bold transition hover:scale-105" href="./cursos.php?index=">Inscrever-se!</a>
+                p-4 rounded text-white font-bold transition hover:scale-105" href="./cursos.php?index=designgrafico">Inscrever-se!</a>
             </div>
 
             <div class=" md:h-72 h-64 bg-slate-200 rounded-2xl md:col-start-4 md:row-start-1
