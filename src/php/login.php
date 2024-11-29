@@ -33,24 +33,45 @@ session_start();
                 $logSenha = $_POST['logSenha'];
                 $loginSucesso = false;
 
-                if (isset($_SESSION['cadastro'])) {
-                    foreach ($_SESSION['cadastro'] as $user) {
-                        if ($user['email'] === $logEmail && $user['senha'] === $logSenha || $user['usuario'] === $logEmail && $user['senha'] === $logSenha) {
+                // if (isset($_SESSION['cadastro'])) {
+                //     foreach ($_SESSION['cadastro'] as $user) {
+                //         if ($user['email'] === $logEmail && $user['senha'] === $logSenha || $user['usuario'] === $logEmail && $user['senha'] === $logSenha) {
+                //             $loginSucesso = true;
+                //             break;
+                //         }
+                //     }
+                // }
+
+
+                // abrir txt
+                $txt = fopen('cadastros.txt', 'r');
+                if ($txt) {
+
+                    // ler todas linhas
+                    while (($linha = fgets($txt)) !== false) {
+                        if (strpos($linha, ',') !== false) { 
+                            list($armazena_usuario, $armazena_email, $armazena_senha) = explode(",", trim($linha));
+                        }
+
+                        if (($armazena_email == $logEmail || $armazena_usuario == $logEmail) && password_verify($logSenha, $armazena_senha)) {
                             $loginSucesso = true;
+                            $_SESSION['usuario_logado'] = $logEmail;
                             break;
                         }
                     }
+                    // fechar txt
+                    fclose($txt);
                 }
+
+
 
                 if ($loginSucesso) {
                     echo "<span class='row-start-5 col-start-1 col-span-2 text-lime-400 flex justify-center items-center'>Login realizado com sucesso!</span>";
-                    $_SESSION['username'] = $logEmail;
                 } else {
                     echo "<span class='row-start-5 col-start-1 col-span-2 text-red-600 flex justify-center items-center'>Email ou senha inválidos!</span>";
                 };
-
-
             }
+        
             ?>
             <a href="./cadastro.php" class="col-start-1 row-start-6 transition hover:text-blue-500 flex items-center font-medium">Cadastre-se!</a>
             <a href="./index.php" class="col-start-2 row-start-6 transition hover:text-blue-500 flex items-center font-medium">Home</a>

@@ -36,30 +36,43 @@ bg-gradient-to-r from-customColor-home to-violet-950">
                 $senha = $_POST['senha'];
                 $confirma = $_POST['confirma'];
 
-                if ($confirma === $senha) {
-                    $novoCadastro = [
-                        'usuario' => $usuario,
-                        'email' => $email,
-                        'senha' => $senha
-                    ];
+                // if ($confirma === $senha) {
+                //     $novoCadastro = [
+                //         'usuario' => $usuario,
+                //         'email' => $email,
+                //         'senha' => $senha
+                //     ];
 
-                    if (isset($_SESSION['cadastro'])) {
-                        $_SESSION['cadastro'][] = $novoCadastro;
-                    } else {
-                        $_SESSION['cadastro'] = [$novoCadastro];
-                    }
+                //     if (isset($_SESSION['cadastro'])) {
+                //         $_SESSION['cadastro'][] = $novoCadastro;
+                //     } else {
+                //         $_SESSION['cadastro'] = [$novoCadastro];
+                //     }
+
+                if ($confirma === $senha) { 
+                
+                    $senhaCripto = password_hash($senha, PASSWORD_DEFAULT);
+
+                    // montar string de dados para salvar 
+                    $novoCadastro = $usuario . "," . $email . "," . $senhaCripto . "\n";
+
+                    // abrir txt para escrita ('a') (se o txt nao existir, é criado)
+                    $txt = fopen('cadastros.txt', 'a');
+
+                    // escrever dados no txt
+                    fwrite($txt, $novoCadastro);
+
+                    fclose($txt);
 
                     echo "<span class='row-start-7 col-start-1 col-span-2 text-lime-400 flex justify-center items-center'>Cadastro realizado com sucesso!</span>";
-                    
                 } else {
                     echo "<span class='row-start-7 col-start-1 col-span-2 text-red-600 flex justify-center items-center'>As senhas não conferem!</span>";
                 }
-
             }
             ?>
 
-        <a href="./login.php" class="col-start-1 row-start-8 transition hover:text-blue-500 flex items-center font-medium">Faça login!</a>
-        <a href="./index.php" class="col-start-2 row-start-8 transition hover:text-blue-500 flex items-center font-medium">Home</a>
+            <a href="./login.php" class="col-start-1 row-start-8 transition hover:text-blue-500 flex items-center font-medium">Faça login!</a>
+            <a href="./index.php" class="col-start-2 row-start-8 transition hover:text-blue-500 flex items-center font-medium">Home</a>
         </form>
 
 
