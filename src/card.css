@@ -1,0 +1,30 @@
+.card-dev {
+    background-image: url(./img/cards/card-dev.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.card-gastro {
+    background-image: url(./img/cards/card-gastro.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.card-design {
+    background-image: url(./img/cards/card-design.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.card-transformacao {
+    background-image: url(./img/cards/card-transformacao.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.card-python {
+    background-image: url(./img/cards/card-python.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.card-foto {
+    background-image: url(./img/cards/card-foto.jpg);
+    background-size: cover;
+    background-position: center;
+}
