@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+
+<body class="h-screen w-full">
+    <header>
+        <nav class="md:h-24 bg-customColor-home
+        grid md:grid-cols-2 md:grid-rows-1 md:gap-80">
+
+            <div class="md:flex md:items-center md:col-start-1 md:col-span-1">
+                <img src="./img/FocusHub.png" class="md:w-24" alt="Logotipo do site FocusHub">
+            </div>
+
+            <div class="md:flex md:items-center md:justify-end md:col-start-2 md:col-span-1
+            text-white md:text-5xl md:m-2">
+
+                <div class="grid md:grid-cols-1 md:grid-rows-3 gap-1 md:m-3 cursor-pointer md:p-4
+                md:bg-violet-800 md:rounded-md" onclick="sidebar()" id="abreMenu">
+                    <div class="bg-white md:w-7 md:h-1 md:row-start-1"></div>
+                    <div class="bg-white md:w-7 md:h-1 md:row-start-2"></div>
+                    <div class="bg-white md:w-7 md:h-1 md:row-start-3"></div>
+                </div>
+            </div>
+        </nav>
+
+        <div id="menu" class="md:h-full md:w-96 bg-violet-950
+            md:fixed md:top-0 md:-right-384">
+        </div>
+    </header>
+
+
+    <script>
+        const menu = document.getElementById('menu');
+        const abreMenu = document.getElementById('abreMenu');
+
+        function sidebar() {
+            if (menu.style.right === '-384px') {
+                menu.style.transition = '0.5s';
+                menu.style.right = '0';
+
+                abreMenu.style.transition = '0.5s';
+                abreMenu.style.transform = 'translateX(-384px)';
+
+            } else {
+                menu.style.transition = '0.5s';
+                menu.style.right = '-384px';
+
+                abreMenu.style.transition = '0.5s';
+                abreMenu.style.transform = 'translateX(0)'
+
+            }
+        }
+        sidebar()
+    </script>
+
+</body>
+
+</html>
