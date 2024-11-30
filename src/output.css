@@ -592,10 +592,6 @@ video {
   grid-row: span 2 / span 2;
 }
 
-.row-span-5{
-  grid-row: span 5 / span 5;
-}
-
 .row-start-1{
   grid-row-start: 1;
 }
@@ -949,11 +945,11 @@ video {
 }
 
 .bg-customColor-fundoLer{
-  background-color: rgba(0, 0, 0, 0.5);;
+  background-color: rgba(0, 0, 0, 0.7);;
 }
 
 .bg-customColor-fundoTransparente{
-  background-color: rgba(0, 0, 0, 0.4);;
+  background-color: rgba(0, 0, 0, 0.5);;
 }
 
 .bg-customColor-home{
@@ -1368,6 +1364,10 @@ video {
     margin-right: 1.5rem;
   }
 
+  .md\:block{
+    display: block;
+  }
+
   .md\:flex{
     display: flex;
   }
@@ -1462,6 +1462,10 @@ video {
 
   .md\:grid-rows-4{
     grid-template-rows: repeat(4, minmax(0, 1fr));
+  }
+
+  .md\:grid-rows-5{
+    grid-template-rows: repeat(5, minmax(0, 1fr));
   }
 
   .md\:flex-col{

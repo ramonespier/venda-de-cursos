@@ -28,3 +28,53 @@
     background-size: cover;
     background-position: center;
 }
+.card-marketing {
+    background-image: url(./img/cards/card-marketing.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.card-musica {
+    background-image: url(./img/cards/card-musica.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.aula-dev {
+    background-image: url(./img/cards/aula-dev.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.aula-gastro {
+    background-image: url(./img/cards/aula-gastro.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.aula-design {
+    background-image: url(./img/cards/aula-design.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.aula-transformacao {
+    background-image: url(./img/cards/aula-transformacao.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.aula-python {
+    background-image: url(./img/cards/aula-python.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.aula-foto {
+    background-image: url(./img/cards/aula-foto.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.aula-marketing {
+    background-image: url(./img/cards/aula-marketing.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.aula-musica {
+    background-image: url(./img/cards/aula-musica.jpg);
+    background-size: cover;
+    background-position: center;
+}
