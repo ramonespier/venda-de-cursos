@@ -133,6 +133,44 @@ $cursos = [
 
     ],
 
+    'escrita' => [
+        'nome' => 'Escrita Criativa',
+        'descricao' => 'Em cada página em branco, existe uma oportunidade infinita de explorar o universo. A arte de escrever transcende as barreiras físicas, temporais e espaciais. Ao longo de nossa jornada no FocusHub, exploramos a arte em suas mais diversas formas – a música que toca a alma, a fotografia que captura momentos, a pintura que eterniza emoções. Agora, damos um passo adiante, imergindo no fascinante mundo das letras, onde as palavras não têm limites.',
+
+        'aprendera' =>  'Você aprenderá: <br>
+                A Importância da Escrita Criativa: a escrita criativa é uma expressão livre do espírito, mas exige o domínio da língua para comunicação eficaz. <br>
+                Domínio da Língua Portuguesa: a língua é a base para transmitir ideias, e o domínio gramatical confere clareza e credibilidade à escrita. <br>
+                A Estrutura Correta da Língua: a técnica e o uso adequado da sintaxe garantem fluidez, coerência e compreensão na narrativa. <br>
+                O Papel do Vocabulário: a escolha cuidadosa de palavras é essencial para transmitir imagens vívidas e emoções no texto.  <br>
+                Equilíbrio entre Técnica e Expressão: a técnica deve sustentar a criatividade, permitindo que a escrita tenha alma e autenticidade. <br>
+                A Importância da Prática e da Leitura: a prática contínua e a leitura diversificada aprimoram a escrita, expandem o vocabulário e ensinam técnicas narrativas. ',
+
+
+        'imagem' => 'escrita.jpg',
+
+        'video' => '<iframe title="vimeo-player" class="h-full w-full" src="https://player.vimeo.com/video/1034796621?h=5b554b4927" width="640" height="360" frameborder="0" allowfullscreen></iframe>',
+
+        'aula' => 'aula-escrita',
+
+    ],
+
+    'vida' => [
+        'nome' => 'Vida saudável: transformando o corpo, mente e emoções para uma vida equilibrada!',
+        'descricao' => 'Você está pronto para transformar sua vida? O FocusHub convida você a embarcar em uma jornada única de autodescoberta e bem-estar com o nosso curso Estilo de Vida Saudável. Mais do que um simples curso, oferecemos uma plataforma completa para o desenvolvimento de hábitos que impactam positivamente seu corpo, mente e emoções.',
+
+        'aprendera' =>  'Você aprenderá: <br>
+                Compreender como os pequenos ajustes diários podem transformar sua saúde física e mental. <br>
+                Incorporar práticas que realmente fazem sentido para sua vida, respeitando seu tempo e limites. <br>
+                Criar uma rotina que possibilite uma vida mais equilibrada e plena.',
+                
+        'imagem' => 'vida.jpg',
+
+        'video' => '<iframe title="vimeo-player" class="h-full w-full" src="https://player.vimeo.com/video/1034796621?h=5b554b4927" width="640" height="360" frameborder="0" allowfullscreen></iframe>',
+
+        'aula' => 'vida-escrita',
+
+    ],
+
 ];
 
 $questionario = [

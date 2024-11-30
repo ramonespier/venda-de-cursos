@@ -33,6 +33,10 @@ session_start();
                 $logSenha = $_POST['logSenha'];
                 $loginSucesso = false;
 
+                $armazena_email = '';
+                $armazena_senha = '';
+                $armazena_nome = '';
+
                 // if (isset($_SESSION['cadastro'])) {
                 //     foreach ($_SESSION['cadastro'] as $user) {
                 //         if ($user['email'] === $logEmail && $user['senha'] === $logSenha || $user['usuario'] === $logEmail && $user['senha'] === $logSenha) {

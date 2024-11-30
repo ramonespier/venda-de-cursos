@@ -72,11 +72,11 @@ session_start();
 
             <div class=" md:h-72 h-64 rounded-xl md:col-start-2 md:row-start-2
                             row-start-6 
-                            grid grid-rows-9 grid-cols-1 justify-items-center shadow-xl p-3 gap-2 ">
-                <h2 class="row-start-1 flex justify-center text-center font-bold text-xl"></h2>
-                <p class="row-start-2 row-span-2 text-justify mr-4 ml-4"></p>
+                            grid grid-rows-9 grid-cols-1 justify-items-center shadow-xl p-3 gap-2 card-escrita">
+                <h2 class="row-start-1 flex justify-center text-center font-bold text-xl bg-customColor-fundoTransparente p-2 self-center">Escrita Criativa</h2>
+                <!-- <p class="row-start-2 row-span-2 text-justify mr-4 ml-4"></p> -->
                 <a class="row-start-8 flex justify-center items-center bg-customColor-home
-                p-4 rounded text-white font-bold transition hover:scale-105" href="./cursos.php?index=">Inscrever-se!</a>
+                p-4 rounded text-white font-bold transition hover:scale-105" href="./cursos.php?index=escrita">Inscrever-se!</a>
             </div>
 
             <div class=" md:h-72 h-64 rounded-xl md:col-start-3 md:row-start-2
@@ -90,10 +90,10 @@ session_start();
             <div class=" md:h-72 h-64 rounded-xl md:col-start-4 md:row-start-2
                             row-start-8
                             grid grid-rows-9 grid-cols-1 justify-items-center shadow-xl p-3 gap-2 ">
-                <h2 class="row-start-1 flex justify-center text-center font-bold text-xl"></h2>
-                <p class="row-start-2 row-span-2 text-justify mr-4 ml-4"></p>
+                <h2 class="row-start-1 flex justify-center text-center font-bold text-xl card-vida">Vida Saudável</h2>
+                <!-- <p class="row-start-2 row-span-2 text-justify mr-4 ml-4"></p> -->
                 <a class="row-start-8 flex justify-center items-center bg-customColor-home
-                p-4 rounded text-white font-bold transition hover:scale-105" href="./cursos.php?index=">Inscrever-se!</a>
+                p-4 rounded text-white font-bold transition hover:scale-105" href="./cursos.php?index=vida">Inscrever-se!</a>
             </div>
 
             <div class=" md:h-72 h-64 rounded-xl md:col-start-1 md:row-start-3

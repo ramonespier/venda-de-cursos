@@ -66,7 +66,7 @@ bg-gradient-to-r from-customColor-home to-violet-950">
 
                     fclose($txt);
 
-                    $user = $nome;
+                    $user = $nome . "\n";
                     $txt = fopen('usuario.txt', 'a');
                     fwrite($txt, $user);
                     fclose($txt);
