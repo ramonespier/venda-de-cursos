@@ -38,6 +38,11 @@
     background-size: cover;
     background-position: center;
 }
+.card-escrita {
+    background-image: url(./img/cards/card-escrita.jpg);
+    background-size: cover;
+    background-position: center;
+}
 .aula-dev {
     background-image: url(./img/cards/aula-dev.jpg);
     background-size: cover;
@@ -75,6 +80,11 @@
 }
 .aula-musica {
     background-image: url(./img/cards/aula-musica.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.aula-escrita {
+    background-image: url(./img/cards/aula-escrita.jpg);
     background-size: cover;
     background-position: center;
 }
