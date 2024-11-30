@@ -56,11 +56,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <main class="grid grid-rows-6 grid-cols-6 h-screen">
         <div class="certificado row-start-2 row-span-4 col-start-2 col-span-4
         grid grid-rows-6 grid-cols-5 justify-items-center
-        border-4 bg-white border-[#FFD700] p-5">
-            <div class="col-start-2 col-span-3 row-start-1 text-3xl font-extrabold self-center"> Certificado de conclusão de curso</div>
-            <div class="row-start-3 col-start-2 col-span-3 text-center text-lg self-center"> Este certificado é concedido a </div>
-            <div class="row-start-4 col-start-3 text-center text-2xl font-bold"> <?php echo htmlspecialchars($nome); ?> </div>
-            <div class="row-start-5 col-start-1 col-span-5 text-xl"> em reconhecimento à sua participação no curso de <?php foreach ($cursos as $key => $curso) {
+        border-4 bg-slate-200 border-[#FFD700] p-5">
+            <div class="col-start-2 col-span-3 row-start-1 text-4xl font-extrabold self-center"> Certificado de conclusão de curso</div>
+            <div class="row-start-3 col-start-2 col-span-3 text-center text-2xl self-center"> Este certificado é concedido a </div>
+            <div class="row-start-4 col-start-3 text-center text-3xl font-bold"> <?php echo htmlspecialchars($nome); ?> </div>
+            <div class="row-start-5 col-start-1 col-span-5 text-2xl"> em reconhecimento conclusão do curso de <?php foreach ($cursos as $key => $curso) {
                                                                                                                             if ($key == $index) {
                                                                                                                                 echo $curso['nome'];
                                                                                                                             }
@@ -69,7 +69,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                 <img src="../img/FocusHub.png" width="100px" alt="Assinatura">
                 <p>FocusHub</p>
             </div>
-            <p class="row-start-6 col-start-5 self-end text-lg">Data: <?php echo $conclusao ?></p>
+            <p class="row-start-6 col-start-5 self-end text-2xl"><?php echo $conclusao ?></p>
 
         </div>
         <button onclick="gerarPDF()" class="row-start-6 col-start-3 col-span-2 text-3xl bg-[#FFD700] m-10 rounded-xl hover:scale-110 transition font-extrabold">Baixar Certificado!</button>
