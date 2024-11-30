@@ -46,7 +46,7 @@ $index = $_GET['index'];
         </div>
 
         <form class="bg-slate-300 md:col-start-3 md:row-start-1 md:row-span-4 flex flex-col md:mr-6 justify-items-center
-        overflow-y-scroll" method="POST" action="aprova.php">    
+        overflow-y-scroll" method="POST" action="aprova.php?index=<?php foreach($cursos as $key => $curso) { if ($key == $index) { echo $key; } } ?>">    
             <div class="border-2 border-b-black
                         grid grid-rows-2 justify-items-center" id="questoes">
                 <p class="font-semibold text-lg text-justify p-3 row-start-1 span-2">

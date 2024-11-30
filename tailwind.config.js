@@ -9,8 +9,8 @@ module.exports = {
           logoCor: '#ffec40',
           menuhov: '#200b46',
           faixa: '#2e1065',
-          fundoTransparente: 'rgba(0, 0, 0, 0.4);',
-          fundoLer: 'rgba(0, 0, 0, 0.5);'
+          fundoTransparente: 'rgba(0, 0, 0, 0.5);',
+          fundoLer: 'rgba(0, 0, 0, 0.7);'
         },
       },
 

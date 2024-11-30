@@ -3,6 +3,9 @@ $txt = 'usuario.txt';
 $nome = trim(file_get_contents($txt));
 $conclusao = date('d.m.y');
 
+require_once 'arrays-cursos.php';
+$index = $_GET['index'];
+
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $respostas_certas = [
@@ -132,7 +135,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         </div>
         <div class="texto"> Este certificado é concedido a </div>
         <div class="nome"> <?php echo htmlspecialchars($nome); ?> </div>
-        <div class="texto"> em reconhecimento à sua participação. </div>
+        <div class="texto"> em reconhecimento à sua participação no curso de <?php foreach($cursos as $key => $curso) { if ($key == $index) { echo $curso['nome']; } } ?>. </div>
         <div class="rodape">
             <div class="assinatura"> <img src="../img/FocusHub.png" alt="Assinatura">
                 <p>FocusHub</p>
@@ -142,6 +145,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             </div>
         </div>
     </div>
+    <button onclick="gerarPDF()">Baixar Certificado</button>
 
 
     <div id="footer"></div>
@@ -149,6 +153,32 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
     <script src="../components/header.js"></script>
     <script src="../components/footer.js"></script>
+
+        <!-- BIBLIOTECA PARA TRANSFORMAR HTML EM PDF (jsPDF e html2canvas) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.3.2/html2canvas.min.js"></script>
+
+<script>
+    function gerarPDF() {
+        const { jsPDF } = window.jspdf; // a funcao acessa a biblioteca jsPDF a partir do objeto window.jspdf
+        const doc = new jsPDF({ // um novo objeto jsPDF é criado. este objeto eh utilizado para gerar o PDF
+            orientation: 'landscape', // define a orientação do documento. dode ser 'portrait' (retrato) ou 'landscape' (paisagem)
+            unit: 'px', // define a unidade de medida para o documento. no meu caso 'mm'
+            format: '1920, 1080' // tamanho do documento
+        });
+
+        // adicionar o conteúdo html ao PDF
+        doc.html(document.querySelector('.certificado'), {
+            callback: function (doc) { // funcao de 'callback' que eh chamada quando a conversão do HTML para PDF eh concluida.
+                doc.save('<?php foreach($cursos as $key => $curso) { if ($key == $index) { echo $curso['nome']; } } ?>.pdf'); // qnd baixar o PDF ele terá esse nome
+            },
+            x: 20,
+            y: 20
+        });
+    }
+</script>
+
+
 </body>
 
 </html>

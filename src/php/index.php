@@ -29,7 +29,6 @@ session_start();
                             row-start-1 
                             grid grid-rows-9 grid-cols-1 justify-items-center shadow-xl p-3 gap-2 card-dev">
                 <h2 class="row-start-1 flex justify-center text-center font-bold text-xl">Desenvolvimento Web</h2>
-                <p class="row-start-3 row-span-2 p-2 self-center text-justify mr-4 ml-4 bg-customColor-fundoTransparente">Aprenda os príncipios da programação</p>
                 <a class="row-start-8 flex justify-center items-center bg-customColor-home
                 p-4 rounded text-white font-bold transition hover:scale-105" href="./cursos.php?index=dev">Inscrever-se!</a>
             </div>
@@ -37,8 +36,8 @@ session_start();
             <div class=" md:h-72 h-64 rounded-xl md:col-start-2 md:row-start-1
                             row-start-2 
                             grid grid-rows-9 grid-cols-1 justify-items-center shadow-xl p-3 gap-2 card-gastro">
-                <h2 class="row-start-1 flex justify-center text-center font-bold text-xl ">Gastronomia</h2>
-                <p class="row-start-3 row-span-2 self-center p-2 text-justify mr-4 ml-4 bg-customColor-fundoTransparente">Aprenda as melhores técnicas e incentivos culinários.</p>
+
+                <p class="row-start-1 row-span-2 self-center p-2 text-justify mr-4 ml-4 bg-customColor-fundoTransparente">Aprenda as melhores técnicas e incentivos culinários.</p>
                 <a class="row-start-8 flex justify-center items-center bg-customColor-home
                 p-4 rounded text-white font-bold transition hover:scale-105" href="./cursos.php?index=gastronomia">Inscrever-se!</a>
             </div>
@@ -55,11 +54,11 @@ session_start();
 
             <div class=" md:h-72 h-64 rounded-xl md:col-start-4 md:row-start-1
                             row-start-4 
-                            grid grid-rows-9 grid-cols-1 justify-items-center shadow-xl p-3 gap-2 ">
-                <h2 class="row-start-1 flex justify-center text-center font-bold text-xl"></h2>
-                <p class="row-start-2 row-span-2 text-justify mr-4 ml-4"></p>
+                            grid grid-rows-9 grid-cols-1 justify-items-center shadow-xl p-3 gap-2 card-marketing">
+                <h2 class="row-start-1 flex justify-center text-center font-bold text-xl self-center p-2 bg-customColor-fundoLer">Marketing Digital</h2>
+                <p class="row-start-3 row-span-2 text-justify mr-4 ml-4 self-center p-2 bg-customColor-fundoLer">Aprenda as melhores estratégias de Marketing!</p>
                 <a class="row-start-8 flex justify-center items-center bg-customColor-home
-                p-4 rounded text-white font-bold transition hover:scale-105" href="./cursos.php?index=">Inscrever-se!</a>
+                p-4 rounded text-white font-bold transition hover:scale-105" href="./cursos.php?index=marketing">Inscrever-se!</a>
             </div>
 
             <div class=" md:h-72 h-64 rounded-xl md:col-start-1 md:row-start-2
@@ -126,9 +125,9 @@ session_start();
 
             <div class=" md:h-72 h-64 rounded-xl md:col-start-4 md:row-start-3
                             row-start-12 
-                            grid grid-rows-9 grid-cols-1 justify-items-center shadow-xl p-3 gap-2 ">
-                <h2 class="row-start-1 flex justify-center text-center font-bold text-xl">Música</h2>
-                <p class="row-start-2 row-span-2 text-justify mr-4 ml-4">Aprenda a criar e apreciar suas músicas.</p>
+                            grid grid-rows-9 grid-cols-1 justify-items-center shadow-xl p-3 gap-2 card-musica">
+                <h2 class="row-start-1 p-2 self-center flex justify-center text-center font-bold text-xl bg-customColor-fundoLer">Música</h2>
+                <p class="row-start-2 p-2 self-center row-span-2 text-justify mr-4 ml-4 bg-customColor-fundoLer">Aprenda a criar e apreciar suas músicas.</p>
                 <a class="row-start-8 flex justify-center items-center bg-customColor-home
                 p-4 rounded text-white font-bold transition hover:scale-105" href="./cursos.php?index=musica">Inscrever-se!</a>
             </div>
