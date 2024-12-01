@@ -43,6 +43,11 @@
     background-size: cover;
     background-position: center;
 }
+.card-vida {
+    background-image: url(./img/cards/card-vida.jpg);
+    background-size: cover;
+    background-position: center;
+}
 .aula-dev {
     background-image: url(./img/cards/aula-dev.jpg);
     background-size: cover;
@@ -85,6 +90,11 @@
 }
 .aula-escrita {
     background-image: url(./img/cards/aula-escrita.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.aula-vida {
+    background-image: url(./img/cards/aula-vida.jpg);
     background-size: cover;
     background-position: center;
 }

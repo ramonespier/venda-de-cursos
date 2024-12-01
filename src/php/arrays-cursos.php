@@ -148,7 +148,7 @@ $cursos = [
 
         'imagem' => 'escrita.jpg',
 
-        'video' => '<iframe title="vimeo-player" class="h-full w-full" src="https://player.vimeo.com/video/1034796621?h=5b554b4927" width="640" height="360" frameborder="0" allowfullscreen></iframe>',
+        'video' => '<iframe title="vimeo-player" class="h-full w-full" src="https://player.vimeo.com/video/1034796621?h=5b554b4927" frameborder="0" allowfullscreen></iframe>',
 
         'aula' => 'aula-escrita',
 
@@ -165,9 +165,9 @@ $cursos = [
                 
         'imagem' => 'vida.jpg',
 
-        'video' => '<iframe title="vimeo-player" class="h-full w-full" src="https://player.vimeo.com/video/1034796621?h=5b554b4927" width="640" height="360" frameborder="0" allowfullscreen></iframe>',
+        'video' => '<iframe title="vimeo-player" class="h-full w-full" src="https://player.vimeo.com/video/1034842561?h=f6057616c9" frameborder="0" allowfullscreen></iframe>',
 
-        'aula' => 'vida-escrita',
+        'aula' => 'aula-vida',
 
     ],
 
@@ -268,6 +268,19 @@ $questionario = [
     ],
 
     'marketing' => [
+        'questao1' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+        'questao2' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+        'questao3' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+        'questao4' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+        'questao5' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+        'questao6' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+        'questao7' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+        'questao8' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+        'questao9' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+        'questao10' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+    ],
+    
+    'vida' => [
         'questao1' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
         'questao2' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
         'questao3' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',

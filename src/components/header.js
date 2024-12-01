@@ -21,7 +21,7 @@ function criarHeader() {
             </div>
         </nav>
 
-        <div id="menu" class=" grid grid-cols-1 grid-rows-16
+        <div id="menu" class=" grid grid-cols-1 grid-rows-16 z-50
         h-full w-screen md:w-96 bg-gradient-to-b from-customColor-home via-indigo-900 to-customColor-home
         fixed top-0 md:-right-384 border-l-2 border-l-slate-400">
 
