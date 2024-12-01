@@ -171,6 +171,25 @@ $cursos = [
 
     ],
 
+    'jornada' => [
+        'nome' => 'Jornada da Pintura',
+        'descricao' => 'A pintura tem o poder de transformar realidades, e neste curso você vai descobrir como. Desde os primeiros traços das cavernas até os grandes mestres da arte, vamos guiá-lo na criação de obras que não só expressam sua visão, mas também impactam o mundo ao seu redor. Aprenda a dominar as técnicas e mergulhe em estilos artísticos que vão despertar sua criatividade e ampliar seus horizontes!',
+
+        'aprendera' =>  'Você aprenderá: <br>
+                Origens: Pintura como ferramenta de sobrevivência e expressão. <br>
+                Materiais: Pincéis, tintas e superfícies definem a obra. <br>
+                Técnicas: Aquarela, óleo e acrílico – a expressão do artista. <br>
+                Movimentos: Impressionismo, Realismo, Expressionismo, Cubismo, Surrealismo, Barroco. <br>
+                Reflexo Social: Pintura como transformação e apelo à reflexão.',
+                
+        'imagem' => 'jornada.jpg',
+
+        'video' => '<iframe title="vimeo-player" class=" h-full w-full" src="https://player.vimeo.com/video/1034858245?h=15e316d718" frameborder="0" allowfullscreen></iframe>',
+
+        'aula' => 'aula-jornada',
+
+    ],
+
 ];
 
 $questionario = [
@@ -281,6 +300,19 @@ $questionario = [
     ],
     
     'vida' => [
+        'questao1' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+        'questao2' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+        'questao3' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+        'questao4' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+        'questao5' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+        'questao6' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+        'questao7' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+        'questao8' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+        'questao9' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+        'questao10' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+    ],
+
+    'jornada' => [
         'questao1' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
         'questao2' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
         'questao3' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',

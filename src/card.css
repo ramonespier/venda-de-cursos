@@ -48,6 +48,11 @@
     background-size: cover;
     background-position: center;
 }
+.card-jornada {
+    background-image: url(./img/cards/card-jornada.jpg);
+    background-size: cover;
+    background-position: center;
+}
 .aula-dev {
     background-image: url(./img/cards/aula-dev.jpg);
     background-size: cover;
@@ -95,6 +100,11 @@
 }
 .aula-vida {
     background-image: url(./img/cards/aula-vida.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.aula-jornada {
+    background-image: url(./img/cards/aula-jornada.jpg);
     background-size: cover;
     background-position: center;
 }

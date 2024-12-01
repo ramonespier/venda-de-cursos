@@ -28,7 +28,7 @@ $index = $_GET['index'];
                 echo '<h1 class="font-bold text-2xl col-start-1">' . $curso['nome'] . '</h1>';
                 echo '<p class="col-start-1">' . $curso['descricao'] . '</p>';
                 echo '<p class="col-start-1">' . $curso['aprendera'] . '</p>';
-                echo '<img class="col-start-1 flex" src="../img/arrays/' . $curso['imagem'] . '" alt="Imagem do curso">';
+                echo '<img class="col-start-1 flex w-auto" src="../img/arrays/' . $curso['imagem'] . '" alt="Imagem do curso">';
                 echo '</div>';
             }
         }

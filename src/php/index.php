@@ -98,11 +98,11 @@ session_start();
 
             <div class=" md:h-72 h-64 rounded-xl md:col-start-1 md:row-start-3
                             row-start-9 
-                            grid grid-rows-9 grid-cols-1 justify-items-center hover:scale-105 transition z-10 shadow-xl p-3 gap-2 ">
-                <h2 class="row-start-1 flex justify-center text-center font-bold text-xl"></h2>
-                <p class="row-start-2 row-span-2 text-justify mr-4 ml-4"></p>
+                            grid grid-rows-9 grid-cols-1 justify-items-center hover:scale-105 transition z-10 shadow-xl p-3 gap-2 card-jornada">
+                <h2 class="row-start-1 flex justify-center text-center font-bold text-xl">Jornada da Pintura</h2>
+                <p class="row-start-2 row-span-2 text-justify mr-4 ml-4">Desperte sua criatividade</p>
                 <a class="row-start-8 flex justify-center items-center bg-customColor-home
-                p-4 rounded text-white font-bold transition hover:scale-105" href="./cursos.php?index=">Inscrever-se!</a>
+                p-4 rounded text-white font-bold transition hover:scale-105" href="./cursos.php?index=jornada">Inscrever-se!</a>
             </div>
 
             <div class=" md:h-72 h-64 rounded-xl md:col-start-2 md:row-start-3
