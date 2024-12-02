@@ -74,6 +74,9 @@ bg-gradient-to-r from-customColor-home to-violet-950">
                     fwrite($txt, $userLogin);
                     fclose($txt);
 
+                    $_SESSION['nome_usuario'] = $usuario;
+                    $_SESSION['nome_real'] = $nome; 
+
                     echo "<span class='row-start-8 col-start-1 col-span-2 text-lime-400 flex justify-center items-center'>Cadastro realizado com sucesso!</span>";
                 } else {
                     echo "<span class='row-start-8 col-start-1 col-span-2 text-red-600 flex justify-center items-center'>As senhas não conferem!</span>";

@@ -47,11 +47,10 @@ session_start()
                                 if (($armazena_email == $logEmailUsuario || $armazena_usuario == $logEmailUsuario) && password_verify($logSenha, $armazena_senha)) {
 
                                     $loginSucesso = true;
-
                                     $_SESSION['nome_usuario'] = $armazena_usuario;
                                     $_SESSION['nome_real'] = $armazena_usuario;
+                                    file_put_contents('nome-de-usuario.txt', $armazena_usuario); // salvar o usuário logado
 
-                                    file_put_contents('nome-de-usuario.txt', $armazena_usuario); // Salvar o usuário logado
                                     break;
                                 }
                             }

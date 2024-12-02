@@ -45,7 +45,7 @@ $index = $_GET['index'];
             <?php
                 foreach($cursos as $key => $curso) {
                     if ($key == $index) {
-                        if(!isset($_SESSION['nome_real'])) {
+                        if(!isset($_SESSION['nome_usuario'])) {
                             echo '<a href="./login.php" class="row-start-5 bg-blue-600 hover:bg-blue-700 transition text-white
                 font-bold flex justify-center items-center self-center rounded-xl text-2xl p-2 pr-4 pl-4">Faça login!</a>';
 

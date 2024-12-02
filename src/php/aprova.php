@@ -1,11 +1,7 @@
 <?php
-$txt = 'usuario.txt';
-$nome = trim(file_get_contents($txt));
-$conclusao = date('d.m.y');
+session_start();
 
-require_once 'arrays-cursos.php';
-$index = $_GET['index'];
-
+$nomeReal = isset($_SESSION['nome_real']) ? $_SESSION['nome_real'] : '';
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $respostas_certas = [
@@ -29,6 +25,15 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         }
     }
 }
+
+// $txt = 'cadastro.txt';
+// $nome = trim(file_get_contents($txt));
+$conclusao = date('d.m.y');
+
+require_once 'arrays-cursos.php';
+$index = $_GET['index'];
+
+
 ?>
 
 <!DOCTYPE html>
@@ -52,12 +57,12 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         grid grid-rows-6 grid-cols-5 justify-items-center
         border-4 bg-slate-200 border-[#FFD700] p-5">
 
-            <div class="row-start-1 col-start-2 col-span-3 text-3xl font-bold<?php if($acertos < 7) { echo 'block'; } else { echo 'hidden'; } ?>"><?php echo htmlspecialchars($nome); ?></div>
+            <div class="row-start-1 col-start-2 col-span-3 text-3xl font-bold<?php if($acertos < 7) { echo 'block'; } else { echo 'hidden'; } ?>"><?php echo htmlspecialchars($_SESSION['nome_real']); ?></div>
             <p class="col-start-2 col-span-3 row-start-2 row-span-4 text-2xl self-center <?php if($acertos < 7) { echo 'block'; } else { echo 'hidden'; } ?>">Infelizmente, você não conseguiu acertar 70% das perguntas... Mas não fique triste! Você sempre pode reassistir e tentar novamente responder as questões!</p>
 
             <div class="col-start-2 col-span-3 row-start-1 text-4xl font-extrabold self-end <?php if($acertos < 7) { echo 'hidden'; } else { echo 'block'; } ?>"> Certificado de conclusão de curso</div>
             <div class="row-start-3 col-start-2 col-span-3 text-center text-2xl self-center <?php if($acertos < 7) { echo 'hidden'; } else { echo 'block'; } ?>"> Este certificado é concedido a </div>
-            <div class="row-start-4 col-start-3 text-center text-3xl font-bold <?php if($acertos < 7) { echo 'hidden'; } else { echo 'block'; } ?>"> <?php echo htmlspecialchars($nome); ?> </div>
+            <div class="row-start-4 col-start-3 text-center text-3xl font-bold <?php if($acertos < 7) { echo 'hidden'; } else { echo 'block'; } ?>"> <?php echo htmlspecialchars($_SESSION['nome_real']); ?> </div>
             <div class="row-start-5 col-start-1 col-span-5 text-2xl <?php if($acertos < 7) { echo 'hidden'; } else { echo 'block'; } ?>"> em reconhecimento conclusão do curso de <?php foreach ($cursos as $key => $curso) {
                                                                                                                                                                                             if ($key == $index) {
                                                                                                                                                                                                 echo $curso['nome'];
