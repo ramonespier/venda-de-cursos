@@ -29,26 +29,26 @@ function criarHeader() {
             flex items-center pl-4 transition hover:bg-red-600 hover:border-t hover:border-b
             md:hidden" id="fecharMenu">✕ Fechar</span>
 
-            <span class="row-start-2 text-white text-3xl cursor-default
+            <span class="row-start-3 text-white text-3xl cursor-default
             flex items-center justify-center 
             md:row-start-1" id="usuario">
                 Nenhum usuário logado
             </span>
 
             <a href="./login.php" 
-            class="text-white text-3xl row-start-4
+            class="text-white text-3xl row-start-5
             md:row-start-3 transition flex items-center 
             hover:border-t hover:border-b pl-4 hover:bg-customColor-menuhov">Faça seu login</a>
 
             <a href="./patch.php" 
-            class="text-white text-3xl row-start-5
+            class="text-white text-3xl row-start-6
             md:row-start-4 transition flex items-center 
             hover:border-t hover:border-b pl-4 hover:bg-customColor-menuhov">Notas de atualização</a>
             
-            <a href="#" 
+            <!-- <a href="#" 
             class="text-white text-3xl row-start-14
             md:row-start-14 transition flex items-center 
-            hover:border-t hover:border-b pl-4 hover:bg-customColor-menuhov">Suporte</a>
+            hover:border-t hover:border-b pl-4 hover:bg-customColor-menuhov">Suporte</a> -->
             
             <a href="./logout.php" 
             class="text-white text-3xl row-start-15

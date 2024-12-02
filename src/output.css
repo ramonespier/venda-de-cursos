@@ -728,10 +728,6 @@ video {
   height: 16rem;
 }
 
-.h-72{
-  height: 18rem;
-}
-
 .h-96{
   height: 24rem;
 }
@@ -768,12 +764,12 @@ video {
   width: 1.75rem;
 }
 
-.w-72{
-  width: 18rem;
-}
-
 .w-96{
   width: 24rem;
+}
+
+.w-auto{
+  width: auto;
 }
 
 .w-full{
@@ -782,10 +778,6 @@ video {
 
 .w-screen{
   width: 100vw;
-}
-
-.w-auto{
-  width: auto;
 }
 
 .transform{
