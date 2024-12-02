@@ -56,19 +56,22 @@ bg-gradient-to-r from-customColor-home to-violet-950">
                     $senhaCripto = password_hash($senha, PASSWORD_DEFAULT);
 
                     // montar string de dados para salvar 
-                    $novoCadastro = $usuario . "," . $email . "," . $senhaCripto . "\n";
+                    $novoCadastro = $usuario . ',' . $email . "," . $senhaCripto . "\n";
 
                     // abrir txt para escrita ('a') (se o txt nao existir, é criado)
                     $txt = fopen('cadastros.txt', 'a');
-
                     // escrever dados no txt
                     fwrite($txt, $novoCadastro);
-
                     fclose($txt);
 
                     $user = $nome . "\n";
                     $txt = fopen('usuario.txt', 'a');
                     fwrite($txt, $user);
+                    fclose($txt);
+
+                    $userLogin = $usuario . "\n";
+                    $txt = fopen('nome-de-usuario.txt', 'a');
+                    fwrite($txt, $userLogin);
                     fclose($txt);
 
                     echo "<span class='row-start-8 col-start-1 col-span-2 text-lime-400 flex justify-center items-center'>Cadastro realizado com sucesso!</span>";

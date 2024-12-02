@@ -67,12 +67,14 @@ $cursos = [
 
     'transformacao' => [
         'nome' => 'Transforme sua vida financeira agora!',
-        'descricao' => 'Aprenda a controlar seu orçamento, investir de forma inteligente e planejar seu futuro com segurança. Este curso vai te ensinar tudo sobre finanças pessoais, desde o básico até estratégias para garantir uma aposentadoria tranquila e um legado duradouro. Venha conquistar sua liberdade financeira com nosso curso da FocusHub!',
+        'descricao' => 'Nosso curso online vai te ensinar a navegar pela transformação digital, explorando o impacto da tecnologia, automação e empreendedorismo digital. Prepare-se para desenvolver habilidades essenciais como criatividade, adaptabilidade e inteligência emocional, para se destacar e liderar na nova era profissional. O futuro começa agora – venha se preparar com o FocusHub!',
         'aprendera' =>  'Você aprenderá:<br>
-                        Começando bem e certo: planejamento de orçamento mensal, controle de gastos e dívidas e metas financeiras.<br>
-                        Iniciando a gestão de recursos provisionados: tipos de investimentos, riscos e retornos e diversificação de portfólio.<br>
-                        O planejamento de longo prazo: a inflação e valor do dinheiro no tempo, planejamento de aposentadoria (estratégias e cálculos), previdência privada.<br>
-                        Legado financeiro: o planejamento para transferência para sucessão da herança familiar',
+                        Transformação Digital no Mercado de Trabalho: como entender como a tecnologia, IA e automação estão mudando rapidamente as dinâmicas do trabalho, com as empresas investindo em inovação para se manter competitivas. <br>
+                        Os Desafios das Novas Gerações no Mercado de Trabalho: como a geração nativa digital enfrenta o desafio de adaptar suas habilidades tecnológicas ao mercado de trabalho.<br>
+                        Mudança nas Habilidades Valorizadas: as competências técnicas mais valorizadas: como ciência de dados e IA estão sendo unidas as habilidades humanas como pensamento crítico, criatividade e empatia ganham cada vez mais importância.<br>
+                        Automação e Oportunidades de Trabalho: como a automação veem redesenhando o mercado de trabalho: eliminando funções e criando novas oportunidades, exigindo que os profissionais se atualizem e se adaptem.<br>
+                        Empreendedorismo Digital e Flexibilidade: como o perfil da nova geração que busca propósito e flexibilidade, tem alavancando o empreendedorismo digital está em alta, com plataformas como Instagram e TikTok.<br>
+                        Adaptabilidade no Futuro do Trabalho: A habilidade essencial no futuro do trabalho, com profissionais precisando se ajustar rapidamente às mudanças e continuar aprendendo.',
 
         'imagem' => 'futuro-do-trabalho.jpg',
 

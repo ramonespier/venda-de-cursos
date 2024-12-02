@@ -32,7 +32,6 @@ function criarHeader() {
             <span class="row-start-3 text-white text-3xl cursor-default
             flex items-center justify-center 
             md:row-start-1" id="usuario">
-                Nenhum usuário logado
             </span>
 
             <a href="./login.php" 

@@ -1,4 +1,5 @@
 <?php
+session_start();
 require_once 'arrays-cursos.php';
 $index = $_GET['index'];
 ?>
@@ -44,8 +45,14 @@ $index = $_GET['index'];
             <?php
                 foreach($cursos as $key => $curso) {
                     if ($key == $index) {
-                        echo '<a href="./aula.php?index='.$key.'" class="row-start-5 bg-green-600 hover:bg-green-700 transition text-white
-            font-bold flex justify-center items-center self-center rounded-xl text-2xl p-2 pr-4 pl-4">Assista a aula!</a>';
+                        if(!isset($_SESSION['nome_real'])) {
+                            echo '<a href="./login.php" class="row-start-5 bg-blue-600 hover:bg-blue-700 transition text-white
+                font-bold flex justify-center items-center self-center rounded-xl text-2xl p-2 pr-4 pl-4">Faça login!</a>';
+
+                        } else {
+                            echo '<a href="./aula.php?index='.$key.'" class="row-start-5 bg-green-600 hover:bg-green-700 transition text-white
+                font-bold flex justify-center items-center self-center rounded-xl text-2xl p-2 pr-4 pl-4">Assista a aula!</a>'; 
+                    }
                 }
             }
             ?>
