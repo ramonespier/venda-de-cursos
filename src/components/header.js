@@ -44,6 +44,11 @@ function criarHeader() {
             class="text-white text-3xl row-start-6
             md:row-start-4 transition flex items-center 
             hover:border-t hover:border-b pl-4 hover:bg-customColor-menuhov">Notas de atualização</a>
+
+            <a href="./sobre.php" 
+            class="text-white text-3xl row-start-7
+            md:row-start-5 transition flex items-center 
+            hover:border-t hover:border-b pl-4 hover:bg-customColor-menuhov">Sobre nós</a>
             
             <!-- <a href="#" 
             class="text-white text-3xl row-start-14

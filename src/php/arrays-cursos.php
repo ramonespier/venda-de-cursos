@@ -74,10 +74,25 @@ $cursos = [
                         O planejamento de longo prazo: a inflação e valor do dinheiro no tempo, planejamento de aposentadoria (estratégias e cálculos), previdência privada.<br>
                         Legado financeiro: o planejamento para transferência para sucessão da herança familiar',
 
+        'imagem' => 'futuro-do-trabalho.jpg',
+
+        'video' => '<iframe title="vimeo-player" class="h-full w-full" src="https://player.vimeo.com/video/1035219251?h=7081dd0522" frameborder="0"  allowfullscreen></iframe>',
+        'aula' => 'aula-transformacao',
+    ],
+
+    'financas' => [
+        'nome' => 'Transforme sua vida financeira agora!',
+        'descricao' => 'Aprenda a controlar seu orçamento, investir de forma inteligente e planejar seu futuro com segurança. Este curso vai te ensinar tudo sobre finanças pessoais, desde o básico até estratégias para garantir uma aposentadoria tranquila e um legado duradouro. Venha conquistar sua liberdade financeira com nosso curso da FocusHub!',
+        'aprendera' =>  'Você aprenderá:<br>
+                        Começando bem e certo: planejamento de orçamento mensal, controle de gastos e dívidas e metas financeiras.<br>
+                        Iniciando a gestão de recursos provisionados: tipos de investimentos, riscos e retornos e diversificação de portfólio.<br>
+                        O planejamento de longo prazo: a inflação e valor do dinheiro no tempo, planejamento de aposentadoria (estratégias e cálculos), previdência privada.<br>
+                        Legado financeiro: o planejamento para transferência para sucessão da herança familiar',
+
         'imagem' => 'financas.webp',
 
-        'video' => '<iframe title="vimeo-player"  class="w-full h-full" src="https://player.vimeo.com/video/1034495529?h=5fbc3b1a14" frameborder="0" allowfullscreen></iframe>',
-        'aula' => 'aula-transformacao',
+        'video' => '<iframe title="vimeo-player" class="w-full h-full" src="https://player.vimeo.com/video/1034495529?h=5fbc3b1a14" frameborder="0" allowfullscreen></iframe>',
+        'aula' => 'aula-financas',
     ],
 
     'python' => [
@@ -313,6 +328,19 @@ $questionario = [
     ],
 
     'jornada' => [
+        'questao1' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+        'questao2' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+        'questao3' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+        'questao4' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+        'questao5' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+        'questao6' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+        'questao7' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+        'questao8' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+        'questao9' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+        'questao10' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
+    ],
+
+    'financas' => [
         'questao1' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
         'questao2' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
         'questao3' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cupiditate sit, eaque fuga ad aliquid beatae alias in iste voluptatibus?',
