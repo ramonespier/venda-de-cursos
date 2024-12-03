@@ -13,7 +13,7 @@ $index = $_GET['index'];
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="vie requiredwport" content="width=device-width, initial-scale=1.0">
     <title>
 
         <?php foreach ($cursos as $key => $curso) {
@@ -45,11 +45,6 @@ $index = $_GET['index'];
             ?>
         </div>
 
-        <div class="row-start-4 col-start-1 col-span-2 flex flex-col justify-center items-center gap-6 m-2 md:ml-10 md:mr-10 text-white">
-            <span class="text-3xl">PROGRESSO:</span>
-            <div class="h-5 w-full border-green-400 border-2"></div>
-        </div>
-
         <form class="bg-slate-300 md:col-start-3 md:row-start-1 md:row-span-4 flex flex-col md:mr-6 justify-items-center
         overflow-y-scroll" method="POST" action="aprova.php?index=<?php foreach($cursos as $key => $curso) { if ($key == $index) { echo $key; } } ?>">    
             <div class="border-2 border-b-black
@@ -66,11 +61,11 @@ $index = $_GET['index'];
                 <div class="row-start-2 flex self-center gap-3 text-2xl">
 
                     <div class="bg-lime-400 rounded-xl">
-                        <input type="radio" id="verdadeiro1" value="verdadeiro" name="q1">
+                        <input type="radio" id="verdadeiro1" value="verdadeiro" name="q1" required required>
                         <label for="verdadeiro1" class="p-1">Verdadeiro</label>
                     </div>
                     <div class="bg-red-400 rounded-xl">
-                        <input type="radio" id="falso1" value="falso" name="q1">
+                        <input type="radio" id="falso1" value="falso" name="q1" required required>
                         <label for="falso1" class="p-1">Falso</label>
                     </div>
                 </div>
@@ -82,7 +77,7 @@ $index = $_GET['index'];
                     <?php
                     foreach ($questionario as $key => $questao) {
                         if ($key == $index) {
-                            echo $questao['questao1'];
+                            echo $questao['questao2'];
                         }
                     }
                     ?>
@@ -90,11 +85,11 @@ $index = $_GET['index'];
                 <div class="row-start-2 flex self-center gap-3 text-2xl">
 
                     <div class="bg-lime-400  rounded-xl">
-                        <input type="radio" id="verdadeiro2" value="verdadeiro" name="q2">
+                        <input type="radio" id="verdadeiro2" value="verdadeiro" name="q2" required>
                         <label for="verdadeiro2" class="p-1">Verdadeiro</label>
                     </div>
                     <div class="bg-red-400 rounded-xl">
-                        <input type="radio" id="falso2" value="falso" name="q2">
+                        <input type="radio" id="falso2" value="falso" name="q2" required>
                         <label for="falso2" class="p-1">Falso</label>
                     </div>
                 </div>
@@ -106,7 +101,7 @@ $index = $_GET['index'];
                     <?php
                     foreach ($questionario as $key => $questao) {
                         if ($key == $index) {
-                            echo $questao['questao1'];
+                            echo $questao['questao3'];
                         }
                     }
                     ?>
@@ -114,11 +109,11 @@ $index = $_GET['index'];
                 <div class="row-start-2 flex self-center gap-3 text-2xl">
 
                     <div class="bg-lime-400  rounded-xl">
-                        <input type="radio" id="verdadeiro3" value="verdadeiro" name="q3">
+                        <input type="radio" id="verdadeiro3" value="verdadeiro" name="q3" required>
                         <label for="verdadeiro3" class="p-1">Verdadeiro</label>
                     </div>
                     <div class="bg-red-400 rounded-xl">
-                        <input type="radio" id="falso3" value="falso" name="q3">
+                        <input type="radio" id="falso3" value="falso" name="q3" required>
                         <label for="falso3" class="p-1">Falso</label>
                     </div>
                 </div>
@@ -130,7 +125,7 @@ $index = $_GET['index'];
                     <?php
                     foreach ($questionario as $key => $questao) {
                         if ($key == $index) {
-                            echo $questao['questao1'];
+                            echo $questao['questao4'];
                         }
                     }
                     ?>
@@ -138,11 +133,11 @@ $index = $_GET['index'];
                 <div class="row-start-2 flex self-center gap-3 text-2xl">
 
                     <div class="bg-lime-400  rounded-xl">
-                        <input type="radio" id="verdadeiro4" value="verdadeiro" name="q4">
+                        <input type="radio" id="verdadeiro4" value="verdadeiro" name="q4" required>
                         <label for="verdadeiro4" class="p-1">Verdadeiro</label>
                     </div>
                     <div class="bg-red-400 rounded-xl">
-                        <input type="radio" id="falso4" value="falso" name="q4">
+                        <input type="radio" id="falso4" value="falso" name="q4" required>
                         <label for="falso4" class="p-1">Falso</label>
                     </div>
                 </div>
@@ -154,7 +149,7 @@ $index = $_GET['index'];
                     <?php
                     foreach ($questionario as $key => $questao) {
                         if ($key == $index) {
-                            echo $questao['questao1'];
+                            echo $questao['questao5'];
                         }
                     }
                     ?>
@@ -162,11 +157,11 @@ $index = $_GET['index'];
                 <div class="row-start-2 flex self-center gap-3 text-2xl">
 
                     <div class="bg-lime-400  rounded-xl">
-                        <input type="radio" id="verdadeiro5" value="verdadeiro" name="q5">
+                        <input type="radio" id="verdadeiro5" value="verdadeiro" name="q5" required>
                         <label for="verdadeiro5" class="p-1">Verdadeiro</label>
                     </div>
                     <div class="bg-red-400 rounded-xl">
-                        <input type="radio" id="falso5" value="falso" name="q5">
+                        <input type="radio" id="falso5" value="falso" name="q5" required>
                         <label for="falso5" class="p-1">Falso</label>
                     </div>
                 </div>
@@ -178,7 +173,7 @@ $index = $_GET['index'];
                     <?php
                     foreach ($questionario as $key => $questao) {
                         if ($key == $index) {
-                            echo $questao['questao1'];
+                            echo $questao['questao6'];
                         }
                     }
                     ?>
@@ -186,11 +181,11 @@ $index = $_GET['index'];
                 <div class="row-start-2 flex self-center gap-3 text-2xl">
 
                     <div class="bg-lime-400  rounded-xl">
-                        <input type="radio" id="verdadeiro6" value="verdadeiro" name="q6">
+                        <input type="radio" id="verdadeiro6" value="verdadeiro" name="q6" required>
                         <label for="verdadeiro6" class="p-1">Verdadeiro</label>
                     </div>
                     <div class="bg-red-400 rounded-xl">
-                        <input type="radio" id="falso6" value="falso" name="q6">
+                        <input type="radio" id="falso6" value="falso" name="q6" required>
                         <label for="falso6" class="p-1">Falso</label>
                     </div>
                 </div>
@@ -202,7 +197,7 @@ $index = $_GET['index'];
                     <?php
                     foreach ($questionario as $key => $questao) {
                         if ($key == $index) {
-                            echo $questao['questao1'];
+                            echo $questao['questao7'];
                         }
                     }
                     ?>
@@ -210,11 +205,11 @@ $index = $_GET['index'];
                 <div class="row-start-2 flex self-center gap-3 text-2xl">
 
                     <div class="bg-lime-400  rounded-xl">
-                        <input type="radio" id="verdadeiro7" value="verdadeiro" name="q7">
+                        <input type="radio" id="verdadeiro7" value="verdadeiro" name="q7" required>
                         <label for="verdadeiro7" class="p-1">Verdadeiro</label>
                     </div>
                     <div class="bg-red-400 rounded-xl">
-                        <input type="radio" id="falso7" value="falso" name="q7">
+                        <input type="radio" id="falso7" value="falso" name="q7" required>
                         <label for="falso7" class="p-1">Falso</label>
                     </div>
                 </div>
@@ -226,7 +221,7 @@ $index = $_GET['index'];
                     <?php
                     foreach ($questionario as $key => $questao) {
                         if ($key == $index) {
-                            echo $questao['questao1'];
+                            echo $questao['questao8'];
                         }
                     }
                     ?>
@@ -234,11 +229,11 @@ $index = $_GET['index'];
                 <div class="row-start-2 flex self-center gap-3 text-2xl">
 
                     <div class="bg-lime-400  rounded-xl">
-                        <input type="radio" id="verdadeiro8" value="verdadeiro" name="q8">
+                        <input type="radio" id="verdadeiro8" value="verdadeiro" name="q8" required>
                         <label for="verdadeiro8" class="p-1">Verdadeiro</label>
                     </div>
                     <div class="bg-red-400 rounded-xl">
-                        <input type="radio" id="falso8" value="falso" name="q8">
+                        <input type="radio" id="falso8" value="falso" name="q8" required>
                         <label for="falso8" class="p-1">Falso</label>
                     </div>
                 </div>
@@ -250,7 +245,7 @@ $index = $_GET['index'];
                     <?php
                     foreach ($questionario as $key => $questao) {
                         if ($key == $index) {
-                            echo $questao['questao1'];
+                            echo $questao['questao9'];
                         }
                     }
                     ?>
@@ -258,11 +253,11 @@ $index = $_GET['index'];
                 <div class="row-start-2 flex self-center gap-3 text-2xl">
 
                     <div class="bg-lime-400  rounded-xl">
-                        <input type="radio" id="verdadeiro9" value="verdadeiro" name="q9">
+                        <input type="radio" id="verdadeiro9" value="verdadeiro" name="q9" required>
                         <label for="verdadeiro9" class="p-1">Verdadeiro</label>
                     </div>
                     <div class="bg-red-400 rounded-xl">
-                        <input type="radio" id="falso9" value="falso" name="q9">
+                        <input type="radio" id="falso9" value="falso" name="q9" required>
                         <label for="falso9" class="p-1">Falso</label>
                     </div>
                 </div>
@@ -274,7 +269,7 @@ $index = $_GET['index'];
                     <?php
                     foreach ($questionario as $key => $questao) {
                         if ($key == $index) {
-                            echo $questao['questao1'];
+                            echo $questao['questao10'];
                         }
                     }
                     ?>
@@ -282,11 +277,11 @@ $index = $_GET['index'];
                 <div class="row-start-2 flex self-center gap-3 text-2xl">
 
                     <div class="bg-lime-400  rounded-xl">
-                        <input type="radio" id="verdadeiro10" value="verdadeiro" name="q10">
+                        <input type="radio" id="verdadeiro10" value="verdadeiro" name="q10 required">
                         <label for="verdadeiro10" class="p-1">Verdadeiro</label>
                     </div>
                     <div class="bg-red-400 rounded-xl">
-                        <input type="radio" id="falso10" value="falso" name="q10">
+                        <input type="radio" id="falso10" value="falso" name="q10 required">
                         <label for="falso10" class="p-1">Falso</label>
                     </div>
                 </div>
