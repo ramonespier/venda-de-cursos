@@ -75,7 +75,7 @@ $index = $_GET['index'];
             <p class="row-start-6 col-start-5 self-end text-2xl <?php if($acertos < 7) { echo 'hidden'; } else { echo 'block'; } ?>"><?php echo $conclusao ?></p>
 
         </div>
-        <button onclick="gerarPDF()" class="row-start-6 col-start-3 col-span-2 text-3xl bg-[#FFD700] m-10 rounded-xl hover:scale-110 transition font-extrabold <?php if($acertos < 7) { echo 'hidden'; } else { echo 'block'; } ?>">Baixar Certificado!</button>
+        <button onclick="gerarPDF()" class="row-start-6 col-start-2 col-span-4 text-3xl bg-[#FFD700] m-6 rounded-xl hover:scale-110 transition font-extrabold <?php if($acertos < 7) { echo 'hidden'; } else { echo 'block'; } ?>">Baixar Certificado!</button>
         <a href="./index.php" class="row-start-6 col-start-3 col-span-2 text-3xl bg-red-500 m-10 rounded-xl hover:scale-110 transition font-extrabold flex justify-center p-2 <?php if($acertos < 7) { echo 'block'; } else { echo 'hidden'; } ?>">Voltar para a Home</a>
     </main>
 
