@@ -60,7 +60,7 @@ $index = $_GET['index'];
             <div class="row-start-1 col-start-2 col-span-3 text-3xl font-bold<?php if($acertos < 7) { echo 'block'; } else { echo 'hidden'; } ?>"><?php echo htmlspecialchars($_SESSION['nome_real']); ?></div>
             <p class="col-start-2 col-span-3 row-start-2 row-span-4 text-2xl self-center <?php if($acertos < 7) { echo 'block'; } else { echo 'hidden'; } ?>">Infelizmente, você não conseguiu acertar 70% das perguntas... Mas não fique triste! Você sempre pode reassistir e tentar novamente responder as questões!</p>
 
-            <div class="col-start-2 col-span-3 row-start-1 text-4xl font-extrabold self-end <?php if($acertos < 7) { echo 'hidden'; } else { echo 'block'; } ?>"> Certificado de conclusão de curso</div>
+            <div class="col-start-2 col-span-3 row-start-2 text-4xl font-extrabold self-center text-center <?php if($acertos < 7) { echo 'hidden'; } else { echo 'block'; } ?>"> Certificado de conclusão de curso</div>
             <div class="row-start-3 col-start-2 col-span-3 text-center text-2xl self-center <?php if($acertos < 7) { echo 'hidden'; } else { echo 'block'; } ?>"> Este certificado é concedido a </div>
             <div class="row-start-4 col-start-3 text-center text-3xl font-bold <?php if($acertos < 7) { echo 'hidden'; } else { echo 'block'; } ?>"> <?php echo htmlspecialchars($_SESSION['nome_real']); ?> </div>
             <div class="row-start-5 col-start-1 col-span-5 text-2xl <?php if($acertos < 7) { echo 'hidden'; } else { echo 'block'; } ?>"> em reconhecimento conclusão do curso de <?php foreach ($cursos as $key => $curso) {
