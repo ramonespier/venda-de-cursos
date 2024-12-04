@@ -41,14 +41,14 @@ session_start()
                         if (strpos($linha, ',') !== false) {
                             $dados = explode(",", trim($linha));
 
-                            if (count($dados) === 3) {
-                                list($armazena_usuario, $armazena_email, $armazena_senha) = explode(",", trim($linha));
+                            if (count($dados) === 4) {
+                                list($armazena_usuario, $armazena_email, $armazena_senha, $armazena_nome) = explode(",", trim($linha));
 
                                 if (($armazena_email == $logEmailUsuario || $armazena_usuario == $logEmailUsuario) && password_verify($logSenha, $armazena_senha)) {
 
                                     $loginSucesso = true;
                                     $_SESSION['nome_usuario'] = $armazena_usuario;
-                                    $_SESSION['nome_real'] = $armazena_usuario;
+                                    $_SESSION['nome_real'] = $armazena_nome;
                                     file_put_contents('nome-de-usuario.txt', $armazena_usuario); // salvar o usuário logado
 
                                     break;

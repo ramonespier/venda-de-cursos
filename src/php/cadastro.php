@@ -38,35 +38,17 @@ bg-gradient-to-r from-customColor-home to-violet-950">
                 $senha = $_POST['senha'];
                 $confirma = $_POST['confirma'];
 
-                // if ($confirma === $senha) {
-                //     $novoCadastro = [
-                //         'usuario' => $usuario,
-                //         'email' => $email,
-                //         'senha' => $senha
-                //     ];
-
-                //     if (isset($_SESSION['cadastro'])) {
-                //         $_SESSION['cadastro'][] = $novoCadastro;
-                //     } else {
-                //         $_SESSION['cadastro'] = [$novoCadastro];
-                //     }
-
                 if ($confirma === $senha) {
 
                     $senhaCripto = password_hash($senha, PASSWORD_DEFAULT);
 
                     // montar string de dados para salvar 
-                    $novoCadastro = $usuario . ',' . $email . "," . $senhaCripto . "\n";
+                    $novoCadastro = $usuario . ',' . $email . "," . $senhaCripto . "," . $nome ."\n";
 
                     // abrir txt para escrita ('a') (se o txt nao existir, é criado)
                     $txt = fopen('cadastros.txt', 'a');
                     // escrever dados no txt
                     fwrite($txt, $novoCadastro);
-                    fclose($txt);
-
-                    $user = $nome . "\n";
-                    $txt = fopen('usuario.txt', 'a');
-                    fwrite($txt, $user);
                     fclose($txt);
 
                     $userLogin = $usuario . "\n";
@@ -75,7 +57,7 @@ bg-gradient-to-r from-customColor-home to-violet-950">
                     fclose($txt);
 
                     $_SESSION['nome_usuario'] = $usuario;
-                    $_SESSION['nome_real'] = $nome; 
+                    $_SESSION['nome_real'] = $nome;
 
                     echo "<span class='row-start-8 col-start-1 col-span-2 text-lime-400 flex justify-center items-center'>Cadastro realizado com sucesso!</span>";
                 } else {
